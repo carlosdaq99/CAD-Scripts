@@ -1,0 +1,196 @@
+20250727.094803 - === SCALECOPYALONGCURVE SESSION STARTED ===
+20250727.094803 - Starting ScaleCopyAlongCurve command
+20250727.094803 - Requesting source object selection
+20250727.094805 - Source object selected: <Entity name: 24049997a00>
+20250727.094807 - Validating curve object
+20250727.094807 - Validating curve entity: <Entity name: 248883edd80>
+20250727.094807 - Curve object type: AcDbSpline
+20250727.094807 - Curve type AcDbSpline is supported
+20250727.094807 - Curve validation successful
+20250727.094814 - Original tangent angle at base point: 0.861294
+20250727.094814 - Calculating curve length
+20250727.094814 - Curve length calculated: 9099.391
+20250727.094814 - Calculating spacing distances
+20250727.094814 - Number of distances calculated: 30
+20250727.094814 - Starting main placement loop
+20250727.094814 - Processing copy 1 of 30
+20250727.094814 - Copying object - Scale: 0.967 Target: (4550.09 -8475.24 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 2 of 30
+20250727.094814 - Copying object - Scale: 0.933 Target: (4815.7 -7955.65 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 3 of 30
+20250727.094814 - Copying object - Scale: 0.900 Target: (4946.2 -7406.47 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 4 of 30
+20250727.094814 - Copying object - Scale: 0.867 Target: (5100.0 -6886.04 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 5 of 30
+20250727.094814 - Copying object - Scale: 0.833 Target: (5437.29 -6496.62 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 6 of 30
+20250727.094814 - Copying object - Scale: 0.800 Target: (5906.82 -6329.33 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 7 of 30
+20250727.094814 - Copying object - Scale: 0.767 Target: (6384.94 -6346.98 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 8 of 30
+20250727.094814 - Copying object - Scale: 0.733 Target: (6800.8 -6535.77 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 9 of 30
+20250727.094814 - Copying object - Scale: 0.700 Target: (7067.39 -6878.38 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 10 of 30
+20250727.094814 - Copying object - Scale: 0.667 Target: (7141.77 -7287.11 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 11 of 30
+20250727.094814 - Copying object - Scale: 0.633 Target: (7051.05 -7670.57 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 12 of 30
+20250727.094814 - Copying object - Scale: 0.600 Target: (6782.68 -7923.78 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 13 of 30
+20250727.094814 - Copying object - Scale: 0.567 Target: (6436.28 -7993.24 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 14 of 30
+20250727.094814 - Copying object - Scale: 0.533 Target: (6103.96 -7960.34 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 15 of 30
+20250727.094814 - Copying object - Scale: 0.500 Target: (5811.06 -7851.38 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 16 of 30
+20250727.094814 - Copying object - Scale: 0.467 Target: (5606.39 -7647.45 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 17 of 30
+20250727.094814 - Copying object - Scale: 0.433 Target: (5561.91 -7382.97 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 18 of 30
+20250727.094814 - Copying object - Scale: 0.400 Target: (5631.17 -7143.18 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 19 of 30
+20250727.094814 - Copying object - Scale: 0.367 Target: (5773.14 -6964.45 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 20 of 30
+20250727.094814 - Copying object - Scale: 0.333 Target: (5965.06 -6889.63 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 21 of 30
+20250727.094814 - Copying object - Scale: 0.300 Target: (6149.99 -6917.1 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 22 of 30
+20250727.094814 - Copying object - Scale: 0.267 Target: (6294.62 -6999.45 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 23 of 30
+20250727.094814 - Copying object - Scale: 0.233 Target: (6379.59 -7116.7 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 24 of 30
+20250727.094814 - Copying object - Scale: 0.200 Target: (6394.83 -7240.38 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 25 of 30
+20250727.094814 - Copying object - Scale: 0.167 Target: (6377.98 -7343.47 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 26 of 30
+20250727.094814 - Copying object - Scale: 0.133 Target: (6354.81 -7423.85 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 27 of 30
+20250727.094814 - Copying object - Scale: 0.100 Target: (6334.58 -7483.25 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 28 of 30
+20250727.094814 - Copying object - Scale: 0.100 Target: (6320.43 -7522.62 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 29 of 30
+20250727.094814 - Copying object - Scale: 0.100 Target: (6313.29 -7542.28 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - Processing copy 30 of 30
+20250727.094814 - Copying object - Scale: 0.100 Target: (6313.29 -7542.28 0.0)
+20250727.094814 - VLA copy successful.
+20250727.094814 - VLA move successful.
+20250727.094814 - VLA scale successful.
+20250727.094814 - VLA rotate successful.
+20250727.094814 - === SCALECOPYALONGCURVE SESSION COMPLETED SUCCESSFULLY ===
