@@ -1,0 +1,16 @@
+;;; VLisp project file [V2.0] test1 saved to:[c:\Users\dea29431\Documents\LOCAL\CAD] at:[7/26/2025]
+(VLISP-PROJECT-LIST 
+  :NAME
+  test1
+  :OWN-LIST
+  ("ScaleCopyAlongCurve")
+  :FAS-DIRECTORY
+  nil
+  :TMP-DIRECTORY
+  nil
+  :PROJECT-KEYS
+  (:BUILD (:standard))
+  :CONTEXT-ID
+  :AUTOLISP
+)
+;;; EOF

@@ -1,0 +1,349 @@
+20250727.092318 - === SCALECOPYALONGCURVE SESSION STARTED ===
+20250727.092318 - Starting ScaleCopyAlongCurve command
+20250727.092318 - Requesting source object selection
+20250727.092320 - Source object selected: <Entity name: 24047fabb30>
+20250727.092324 - Validating curve object
+20250727.092324 - Validating curve entity: <Entity name: 24047fabb20>
+20250727.092324 - Curve object type: AcDbSpline
+20250727.092324 - Curve type AcDbSpline is supported
+20250727.092324 - Curve validation successful
+20250727.092332 - Original tangent angle at base point: 0.861294
+20250727.092332 - Calculating curve length
+20250727.092332 - Curve length calculated: 9099.391
+20250727.092332 - Calculating spacing distances
+20250727.092332 - Number of distances calculated: 30
+20250727.092332 - Starting main placement loop
+20250727.092332 - Processing copy 1 of 30
+20250727.092332 - Target point: (4476.33 -5297.62 0.0)
+20250727.092332 - DEBUG: Copy 1 - Original tangent angle: 0.861294 | Placement tangent angle: 0.964612
+20250727.092332 - DEBUG: Copy 1 - Rotation difference (radians): 0.103318
+20250727.092332 - DEBUG: Copy 1 - Calling copy-and-scale-object with scale-factor: 0.967 rotation: 0.103318
+20250727.092332 - Copying object - Scale: 0.967 Target: (4476.33 -5297.62 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 1
+20250727.092332 - Processing copy 2 of 30
+20250727.092332 - Target point: (4741.94 -4778.03 0.0)
+20250727.092332 - DEBUG: Copy 2 - Original tangent angle: 0.861294 | Placement tangent angle: 1.255611
+20250727.092332 - DEBUG: Copy 2 - Rotation difference (radians): 0.394316
+20250727.092332 - DEBUG: Copy 2 - Calling copy-and-scale-object with scale-factor: 0.933 rotation: 0.394316
+20250727.092332 - Copying object - Scale: 0.933 Target: (4741.94 -4778.03 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 2
+20250727.092332 - Processing copy 3 of 30
+20250727.092332 - Target point: (4872.44 -4228.84 0.0)
+20250727.092332 - DEBUG: Copy 3 - Original tangent angle: 0.861294 | Placement tangent angle: 1.364527
+20250727.092332 - DEBUG: Copy 3 - Rotation difference (radians): 0.503233
+20250727.092332 - DEBUG: Copy 3 - Calling copy-and-scale-object with scale-factor: 0.900 rotation: 0.503233
+20250727.092332 - Copying object - Scale: 0.900 Target: (4872.44 -4228.84 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 3
+20250727.092332 - Processing copy 4 of 30
+20250727.092332 - Target point: (5026.24 -3708.42 0.0)
+20250727.092332 - DEBUG: Copy 4 - Original tangent angle: 0.861294 | Placement tangent angle: 1.136249
+20250727.092332 - DEBUG: Copy 4 - Rotation difference (radians): 0.274954
+20250727.092332 - DEBUG: Copy 4 - Calling copy-and-scale-object with scale-factor: 0.867 rotation: 0.274954
+20250727.092332 - Copying object - Scale: 0.867 Target: (5026.24 -3708.42 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 4
+20250727.092332 - Processing copy 5 of 30
+20250727.092332 - Target point: (5363.52 -3318.99 0.0)
+20250727.092332 - DEBUG: Copy 5 - Original tangent angle: 0.861294 | Placement tangent angle: 0.562099
+20250727.092332 - DEBUG: Copy 5 - Rotation difference (radians): -0.299195
+20250727.092332 - DEBUG: Copy 5 - Calling copy-and-scale-object with scale-factor: 0.833 rotation: -0.299195
+20250727.092332 - Copying object - Scale: 0.833 Target: (5363.52 -3318.99 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 5
+20250727.092332 - Processing copy 6 of 30
+20250727.092332 - Target point: (5833.05 -3151.71 0.0)
+20250727.092332 - DEBUG: Copy 6 - Original tangent angle: 0.861294 | Placement tangent angle: 0.143605
+20250727.092332 - DEBUG: Copy 6 - Rotation difference (radians): -0.717689
+20250727.092332 - DEBUG: Copy 6 - Calling copy-and-scale-object with scale-factor: 0.800 rotation: -0.717689
+20250727.092332 - Copying object - Scale: 0.800 Target: (5833.05 -3151.71 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 6
+20250727.092332 - Processing copy 7 of 30
+20250727.092332 - Target point: (6311.17 -3169.36 0.0)
+20250727.092332 - DEBUG: Copy 7 - Original tangent angle: 0.861294 | Placement tangent angle: -0.222882
+20250727.092332 - DEBUG: Copy 7 - Rotation difference (radians): -1.084176
+20250727.092332 - DEBUG: Copy 7 - Calling copy-and-scale-object with scale-factor: 0.767 rotation: -1.084176
+20250727.092332 - Copying object - Scale: 0.767 Target: (6311.17 -3169.36 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 7
+20250727.092332 - Processing copy 8 of 30
+20250727.092332 - Target point: (6727.04 -3358.14 0.0)
+20250727.092332 - DEBUG: Copy 8 - Original tangent angle: 0.861294 | Placement tangent angle: -0.651123
+20250727.092332 - DEBUG: Copy 8 - Rotation difference (radians): -1.512417
+20250727.092332 - DEBUG: Copy 8 - Calling copy-and-scale-object with scale-factor: 0.733 rotation: -1.512417
+20250727.092332 - Copying object - Scale: 0.733 Target: (6727.04 -3358.14 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 8
+20250727.092332 - Processing copy 9 of 30
+20250727.092332 - Target point: (6993.63 -3700.76 0.0)
+20250727.092332 - DEBUG: Copy 9 - Original tangent angle: 0.861294 | Placement tangent angle: -1.176992
+20250727.092332 - DEBUG: Copy 9 - Rotation difference (radians): -2.038286
+20250727.092332 - DEBUG: Copy 9 - Calling copy-and-scale-object with scale-factor: 0.700 rotation: -2.038286
+20250727.092332 - Copying object - Scale: 0.700 Target: (6993.63 -3700.76 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 9
+20250727.092332 - Processing copy 10 of 30
+20250727.092332 - Target point: (7068.01 -4109.49 0.0)
+20250727.092332 - DEBUG: Copy 10 - Original tangent angle: 0.861294 | Placement tangent angle: -1.591482
+20250727.092332 - DEBUG: Copy 10 - Rotation difference (radians): -2.452776
+20250727.092332 - DEBUG: Copy 10 - Calling copy-and-scale-object with scale-factor: 0.667 rotation: -2.452776
+20250727.092332 - Copying object - Scale: 0.667 Target: (7068.01 -4109.49 0.0)
+20250727.092332 - VLA copy successful.
+20250727.092332 - VLA move successful.
+20250727.092332 - VLA scale successful.
+20250727.092332 - VLA rotate successful.
+20250727.092332 - Successfully placed copy 10
+20250727.092332 - Processing copy 11 of 30
+20250727.092332 - Target point: (6977.29 -4492.94 0.0)
+20250727.092333 - DEBUG: Copy 11 - Original tangent angle: 0.861294 | Placement tangent angle: -2.050819
+20250727.092333 - DEBUG: Copy 11 - Rotation difference (radians): -2.912114
+20250727.092333 - DEBUG: Copy 11 - Calling copy-and-scale-object with scale-factor: 0.633 rotation: -2.912114
+20250727.092333 - Copying object - Scale: 0.633 Target: (6977.29 -4492.94 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 11
+20250727.092333 - Processing copy 12 of 30
+20250727.092333 - Target point: (6708.92 -4746.16 0.0)
+20250727.092333 - DEBUG: Copy 12 - Original tangent angle: 0.861294 | Placement tangent angle: -2.722496
+20250727.092333 - DEBUG: Copy 12 - Rotation difference (radians): -3.583790
+20250727.092333 - DEBUG: Copy 12 - Calling copy-and-scale-object with scale-factor: 0.600 rotation: -3.583790
+20250727.092333 - Copying object - Scale: 0.600 Target: (6708.92 -4746.16 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 12
+20250727.092333 - Processing copy 13 of 30
+20250727.092333 - Target point: (6362.52 -4815.62 0.0)
+20250727.092333 - DEBUG: Copy 13 - Original tangent angle: 0.861294 | Placement tangent angle: -3.120917
+20250727.092333 - DEBUG: Copy 13 - Rotation difference (radians): -3.982211
+20250727.092333 - DEBUG: Copy 13 - Calling copy-and-scale-object with scale-factor: 0.567 rotation: -3.982211
+20250727.092333 - Copying object - Scale: 0.567 Target: (6362.52 -4815.62 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 13
+20250727.092333 - Processing copy 14 of 30
+20250727.092333 - Target point: (6030.2 -4782.72 0.0)
+20250727.092333 - DEBUG: Copy 14 - Original tangent angle: 0.861294 | Placement tangent angle: 2.926403
+20250727.092333 - DEBUG: Copy 14 - Rotation difference (radians): 2.065109
+20250727.092333 - DEBUG: Copy 14 - Calling copy-and-scale-object with scale-factor: 0.533 rotation: 2.065109
+20250727.092333 - Copying object - Scale: 0.533 Target: (6030.2 -4782.72 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 14
+20250727.092333 - Processing copy 15 of 30
+20250727.092333 - Target point: (5737.3 -4673.75 0.0)
+20250727.092333 - DEBUG: Copy 15 - Original tangent angle: 0.861294 | Placement tangent angle: 2.612770
+20250727.092333 - DEBUG: Copy 15 - Rotation difference (radians): 1.751475
+20250727.092333 - DEBUG: Copy 15 - Calling copy-and-scale-object with scale-factor: 0.500 rotation: 1.751475
+20250727.092333 - Copying object - Scale: 0.500 Target: (5737.3 -4673.75 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 15
+20250727.092333 - Processing copy 16 of 30
+20250727.092333 - Target point: (5532.62 -4469.83 0.0)
+20250727.092333 - DEBUG: Copy 16 - Original tangent angle: 0.861294 | Placement tangent angle: 2.047197
+20250727.092333 - DEBUG: Copy 16 - Rotation difference (radians): 1.185903
+20250727.092333 - DEBUG: Copy 16 - Calling copy-and-scale-object with scale-factor: 0.467 rotation: 1.185903
+20250727.092333 - Copying object - Scale: 0.467 Target: (5532.62 -4469.83 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 16
+20250727.092333 - Processing copy 17 of 30
+20250727.092333 - Target point: (5488.15 -4205.35 0.0)
+20250727.092333 - DEBUG: Copy 17 - Original tangent angle: 0.861294 | Placement tangent angle: 1.476915
+20250727.092333 - DEBUG: Copy 17 - Rotation difference (radians): 0.615621
+20250727.092333 - DEBUG: Copy 17 - Calling copy-and-scale-object with scale-factor: 0.433 rotation: 0.615621
+20250727.092333 - Copying object - Scale: 0.433 Target: (5488.15 -4205.35 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 17
+20250727.092333 - Processing copy 18 of 30
+20250727.092333 - Target point: (5557.41 -3965.56 0.0)
+20250727.092333 - DEBUG: Copy 18 - Original tangent angle: 0.861294 | Placement tangent angle: 1.103317
+20250727.092333 - DEBUG: Copy 18 - Rotation difference (radians): 0.242023
+20250727.092333 - DEBUG: Copy 18 - Calling copy-and-scale-object with scale-factor: 0.400 rotation: 0.242023
+20250727.092333 - Copying object - Scale: 0.400 Target: (5557.41 -3965.56 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 18
+20250727.092333 - Processing copy 19 of 30
+20250727.092333 - Target point: (5699.38 -3786.83 0.0)
+20250727.092333 - DEBUG: Copy 19 - Original tangent angle: 0.861294 | Placement tangent angle: 0.661714
+20250727.092333 - DEBUG: Copy 19 - Rotation difference (radians): -0.199581
+20250727.092333 - DEBUG: Copy 19 - Calling copy-and-scale-object with scale-factor: 0.367 rotation: -0.199581
+20250727.092333 - Copying object - Scale: 0.367 Target: (5699.38 -3786.83 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 19
+20250727.092333 - Processing copy 20 of 30
+20250727.092333 - Target point: (5891.3 -3712.01 0.0)
+20250727.092333 - DEBUG: Copy 20 - Original tangent angle: 0.861294 | Placement tangent angle: 0.068880
+20250727.092333 - DEBUG: Copy 20 - Rotation difference (radians): -0.792415
+20250727.092333 - DEBUG: Copy 20 - Calling copy-and-scale-object with scale-factor: 0.333 rotation: -0.792415
+20250727.092333 - Copying object - Scale: 0.333 Target: (5891.3 -3712.01 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 20
+20250727.092333 - Processing copy 21 of 30
+20250727.092333 - Target point: (6076.23 -3739.47 0.0)
+20250727.092333 - DEBUG: Copy 21 - Original tangent angle: 0.861294 | Placement tangent angle: -0.343531
+20250727.092333 - DEBUG: Copy 21 - Rotation difference (radians): -1.204826
+20250727.092333 - DEBUG: Copy 21 - Calling copy-and-scale-object with scale-factor: 0.300 rotation: -1.204826
+20250727.092333 - Copying object - Scale: 0.300 Target: (6076.23 -3739.47 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 21
+20250727.092333 - Processing copy 22 of 30
+20250727.092333 - Target point: (6220.86 -3821.83 0.0)
+20250727.092333 - DEBUG: Copy 22 - Original tangent angle: 0.861294 | Placement tangent angle: -0.709318
+20250727.092333 - DEBUG: Copy 22 - Rotation difference (radians): -1.570612
+20250727.092333 - DEBUG: Copy 22 - Calling copy-and-scale-object with scale-factor: 0.267 rotation: -1.570612
+20250727.092333 - Copying object - Scale: 0.267 Target: (6220.86 -3821.83 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 22
+20250727.092333 - Processing copy 23 of 30
+20250727.092333 - Target point: (6305.83 -3939.08 0.0)
+20250727.092333 - DEBUG: Copy 23 - Original tangent angle: 0.861294 | Placement tangent angle: -1.223309
+20250727.092333 - DEBUG: Copy 23 - Rotation difference (radians): -2.084604
+20250727.092333 - DEBUG: Copy 23 - Calling copy-and-scale-object with scale-factor: 0.233 rotation: -2.084604
+20250727.092333 - Copying object - Scale: 0.233 Target: (6305.83 -3939.08 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 23
+20250727.092333 - Processing copy 24 of 30
+20250727.092333 - Target point: (6321.06 -4062.76 0.0)
+20250727.092333 - DEBUG: Copy 24 - Original tangent angle: 0.861294 | Placement tangent angle: -1.634085
+20250727.092333 - DEBUG: Copy 24 - Rotation difference (radians): -2.495380
+20250727.092333 - DEBUG: Copy 24 - Calling copy-and-scale-object with scale-factor: 0.200 rotation: -2.495380
+20250727.092333 - Copying object - Scale: 0.200 Target: (6321.06 -4062.76 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 24
+20250727.092333 - Processing copy 25 of 30
+20250727.092333 - Target point: (6304.22 -4165.85 0.0)
+20250727.092333 - DEBUG: Copy 25 - Original tangent angle: 0.861294 | Placement tangent angle: -1.811295
+20250727.092333 - DEBUG: Copy 25 - Rotation difference (radians): -2.672589
+20250727.092333 - DEBUG: Copy 25 - Calling copy-and-scale-object with scale-factor: 0.167 rotation: -2.672589
+20250727.092333 - Copying object - Scale: 0.167 Target: (6304.22 -4165.85 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 25
+20250727.092333 - Processing copy 26 of 30
+20250727.092333 - Target point: (6281.05 -4246.23 0.0)
+20250727.092333 - DEBUG: Copy 26 - Original tangent angle: 0.861294 | Placement tangent angle: -1.883752
+20250727.092333 - DEBUG: Copy 26 - Rotation difference (radians): -2.745046
+20250727.092333 - DEBUG: Copy 26 - Calling copy-and-scale-object with scale-factor: 0.133 rotation: -2.745046
+20250727.092333 - Copying object - Scale: 0.133 Target: (6281.05 -4246.23 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 26
+20250727.092333 - Processing copy 27 of 30
+20250727.092333 - Target point: (6260.81 -4305.63 0.0)
+20250727.092333 - DEBUG: Copy 27 - Original tangent angle: 0.861294 | Placement tangent angle: -1.911123
+20250727.092333 - DEBUG: Copy 27 - Rotation difference (radians): -2.772417
+20250727.092333 - DEBUG: Copy 27 - Calling copy-and-scale-object with scale-factor: 0.100 rotation: -2.772417
+20250727.092333 - Copying object - Scale: 0.100 Target: (6260.81 -4305.63 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 27
+20250727.092333 - Processing copy 28 of 30
+20250727.092333 - Target point: (6246.67 -4345.0 0.0)
+20250727.092333 - DEBUG: Copy 28 - Original tangent angle: 0.861294 | Placement tangent angle: -1.918899
+20250727.092333 - DEBUG: Copy 28 - Rotation difference (radians): -2.780193
+20250727.092333 - DEBUG: Copy 28 - Calling copy-and-scale-object with scale-factor: 0.100 rotation: -2.780193
+20250727.092333 - Copying object - Scale: 0.100 Target: (6246.67 -4345.0 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 28
+20250727.092333 - Processing copy 29 of 30
+20250727.092333 - Distance 9099.391 exceeds curve length, clamping
+20250727.092333 - Target point: (6239.52 -4364.66 0.0)
+20250727.092333 - DEBUG: Copy 29 - Original tangent angle: 0.861294 | Placement tangent angle: -1.919860
+20250727.092333 - DEBUG: Copy 29 - Rotation difference (radians): -2.781155
+20250727.092333 - DEBUG: Copy 29 - Calling copy-and-scale-object with scale-factor: 0.100 rotation: -2.781155
+20250727.092333 - Copying object - Scale: 0.100 Target: (6239.52 -4364.66 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 29
+20250727.092333 - Processing copy 30 of 30
+20250727.092333 - Distance 9099.391 exceeds curve length, clamping
+20250727.092333 - Target point: (6239.52 -4364.66 0.0)
+20250727.092333 - DEBUG: Copy 30 - Original tangent angle: 0.861294 | Placement tangent angle: -1.919860
+20250727.092333 - DEBUG: Copy 30 - Rotation difference (radians): -2.781155
+20250727.092333 - DEBUG: Copy 30 - Calling copy-and-scale-object with scale-factor: 0.100 rotation: -2.781155
+20250727.092333 - Copying object - Scale: 0.100 Target: (6239.52 -4364.66 0.0)
+20250727.092333 - VLA copy successful.
+20250727.092333 - VLA move successful.
+20250727.092333 - VLA scale successful.
+20250727.092333 - VLA rotate successful.
+20250727.092333 - Successfully placed copy 30
+20250727.092333 - Main loop completed, cleaning up
+20250727.092333 - === SCALECOPYALONGCURVE SESSION COMPLETED SUCCESSFULLY ===
