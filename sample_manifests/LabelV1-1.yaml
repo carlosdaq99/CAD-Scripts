@@ -1,0 +1,33 @@
+commands:
+- label
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Allows the user to create MText labels dynamically        ;;
+entry_points:
+  complexity: intermediate
+  primary: label
+filename: LabelV1-1.lsp
+generated_date: '2025-07-29T11:39:39.697720'
+id: LabelV1-1
+line_count: 259
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+title: Label V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

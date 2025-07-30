@@ -1,0 +1,29 @@
+commands: []
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Returns the version of the supplied filename (dwg/dws/dwt/dxf)
+entry_points:
+  complexity: beginner
+  primary: ''
+filename: DrawingVersionV1-1.lsp
+generated_date: '2025-07-29T11:39:39.631161'
+id: DrawingVersionV1-1
+line_count: 49
+primary_category: LAYER_DRAWING
+schema_version: '1.0'
+tags: []
+technologies:
+- FileIO
+title: Drawing Version V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - layer_drawing
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

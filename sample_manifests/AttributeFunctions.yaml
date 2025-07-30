@@ -1,0 +1,31 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Returns the value held by the specified tag within the supplied block,
+  if present.
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: AttributeFunctions.lsp
+generated_date: '2025-07-29T11:39:39.533619'
+id: AttributeFunctions
+line_count: 185
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- attribute
+- block
+- objects
+technologies:
+- ActiveX
+title: AttributeFunctions
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  version_string: '1.0'

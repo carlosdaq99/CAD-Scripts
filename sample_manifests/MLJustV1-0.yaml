@@ -1,0 +1,31 @@
+commands:
+- mljust
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to change the justification of a      ;;
+entry_points:
+  complexity: intermediate
+  primary: mljust
+filename: MLJustV1-0.lsp
+generated_date: '2025-07-29T11:39:39.727717'
+id: MLJustV1-0
+line_count: 112
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+title: MLJust V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

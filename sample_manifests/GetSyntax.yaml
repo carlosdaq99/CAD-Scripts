@@ -1,0 +1,28 @@
+commands:
+- GetSyntax
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Returns a list of syntax for all defined commands in a    ;;
+entry_points:
+  complexity: beginner
+  primary: GetSyntax
+filename: GetSyntax.lsp
+generated_date: '2025-07-29T11:39:39.668156'
+id: GetSyntax
+line_count: 92
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- FileIO
+title: GetSyntax
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

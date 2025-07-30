@@ -1,0 +1,39 @@
+id: NumIncV4-0
+filename: NumIncV4-0.lsp
+title: NumInc V4.0
+description: Incremental Numbering Suite enables the user to dynamically place incrementing
+  alphabetical
+primary_category: TEXT_ANNOTATION
+commands:
+- numinc
+tags:
+- numbering
+- interactive
+- annotation
+- labeling
+- text
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+ui: DCL
+complexity: expert
+line_count: 6020
+version_info:
+  major: '4'
+  minor: '0'
+  version_string: V4-0
+entry_points:
+  primary: numinc
+  complexity: expert
+dependencies:
+  requires: []
+  integrates_with: []
+  conflicts_with: []
+usage_context:
+  typical_workflows:
+  - text_annotation
+  automation_level: semi_automatic
+generated_date: '2025-07-29T11:29:34.640603'
+schema_version: '1.0'

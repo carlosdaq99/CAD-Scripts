@@ -1,0 +1,28 @@
+commands:
+- lotto
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Generates a sequence of random numbers in the form of     ;;
+entry_points:
+  complexity: intermediate
+  primary: lotto
+filename: Lotto.lsp
+generated_date: '2025-07-29T11:39:39.724084'
+id: Lotto
+line_count: 106
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: Lotto
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

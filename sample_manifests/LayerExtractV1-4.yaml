@@ -1,0 +1,36 @@
+commands:
+- LX
+- LayerExtract
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: --=={ Local Functions }==--
+entry_points:
+  complexity: expert
+  primary: LX
+filename: LayerExtractV1-4.lsp
+generated_date: '2025-07-29T11:39:39.702387'
+id: LayerExtractV1-4
+line_count: 1072
+primary_category: LAYER_DRAWING
+schema_version: '1.0'
+tags:
+- interactive
+- automation
+technologies:
+- ObjectDBX
+- DCL
+- ActiveX
+- FileIO
+title: LayerExtract V1.4
+ui: DCL
+usage_context:
+  automation_level: fully_automatic
+  typical_workflows:
+  - layer_drawing
+version_info:
+  major: '1'
+  minor: '4'
+  version_string: V1-4

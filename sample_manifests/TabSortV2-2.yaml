@@ -1,0 +1,33 @@
+commands:
+- TabSort
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: A program designed with the intention to aid in the       ;;
+entry_points:
+  complexity: expert
+  primary: TabSort
+filename: TabSortV2-2.lsp
+generated_date: '2025-07-29T11:39:39.826421'
+id: TabSortV2-2
+line_count: 1582
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- ActiveX
+- FileIO
+title: TabSort V2.2
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '2'
+  minor: '2'
+  version_string: V2-2

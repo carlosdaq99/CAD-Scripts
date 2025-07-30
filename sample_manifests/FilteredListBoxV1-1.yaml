@@ -1,0 +1,32 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Displays a list box interface from which the user may select one or more
+  items.
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: FilteredListBoxV1-1.lsp
+generated_date: '2025-07-29T11:39:39.662737'
+id: FilteredListBoxV1-1
+line_count: 74
+primary_category: SELECTION_ENTITY
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- FileIO
+title: FilteredListBox V1.1
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - selection_entity
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

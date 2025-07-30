@@ -1,0 +1,28 @@
+commands:
+- cmeasure
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: intermediate
+  primary: cmeasure
+filename: CMeasure.lsp
+generated_date: '2025-07-29T11:39:39.563267'
+id: CMeasure
+line_count: 115
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: CMeasure
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

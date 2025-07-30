@@ -1,0 +1,35 @@
+commands:
+- AF
+- AT
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Allows the user to label picked areas or objects and      ;;
+entry_points:
+  complexity: intermediate
+  primary: AF
+filename: AreaLabelV1-9.lsp
+generated_date: '2025-07-29T11:39:39.512059'
+id: AreaLabelV1-9
+line_count: 497
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+- FileIO
+title: AreaLabel V1.9
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '9'
+  version_string: V1-9

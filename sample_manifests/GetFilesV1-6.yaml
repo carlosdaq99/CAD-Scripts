@@ -1,0 +1,32 @@
+commands: []
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: An analog of the 'getfiled' function for multiple file selection.   ;;
+entry_points:
+  complexity: advanced
+  primary: ''
+filename: GetFilesV1-6.lsp
+generated_date: '2025-07-29T11:39:39.666395'
+id: GetFilesV1-6
+line_count: 469
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- ActiveX
+- FileIO
+title: GetFiles V1.6
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '6'
+  version_string: V1-6

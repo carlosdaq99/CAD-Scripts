@@ -1,0 +1,30 @@
+commands:
+- cr
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows the user to rotate the AutoCAD crosshairs       ;;
+entry_points:
+  complexity: beginner
+  primary: cr
+filename: CursorRotateV1-0.lsp
+generated_date: '2025-07-29T11:39:39.606891'
+id: CursorRotateV1-0
+line_count: 69
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: CursorRotate V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

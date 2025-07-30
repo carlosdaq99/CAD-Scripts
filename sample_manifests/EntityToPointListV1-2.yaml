@@ -1,0 +1,30 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Returns a list of WCS points describing or approximating the supplied
+  entity, else nil if the entity is not supported.
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: EntityToPointListV1-2.lsp
+generated_date: '2025-07-29T11:39:39.648681'
+id: EntityToPointListV1-2
+line_count: 128
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: EntityToPointList V1.2
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

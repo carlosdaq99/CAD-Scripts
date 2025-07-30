@@ -1,0 +1,40 @@
+commands:
+- afm
+- lfm
+- lf
+- af
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program offers two commands to allow a user to generate a      ;;
+entry_points:
+  complexity: advanced
+  primary: afm
+filename: LengthAreaFieldV1-4.lsp
+generated_date: '2025-07-29T11:39:39.709412'
+id: LengthAreaFieldV1-4
+line_count: 571
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- interactive
+- labeling
+- text
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: LengthAreaField V1.4
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '4'
+  version_string: V1-4

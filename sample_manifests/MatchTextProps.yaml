@@ -1,0 +1,33 @@
+commands:
+- MatchTextProps
+- MTP
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: intermediate
+  primary: MatchTextProps
+filename: MatchTextProps.lsp
+generated_date: '2025-07-29T11:39:39.747238'
+id: MatchTextProps
+line_count: 189
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+- SelectionSets
+title: MatchTextProps
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  version_string: '1.0'

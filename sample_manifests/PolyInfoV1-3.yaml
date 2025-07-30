@@ -1,0 +1,34 @@
+commands:
+- polyinfo
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program provides the user with detailed information about      ;;
+entry_points:
+  complexity: intermediate
+  primary: polyinfo
+filename: PolyInfoV1-3.lsp
+generated_date: '2025-07-29T11:39:39.778867'
+id: PolyInfoV1-3
+line_count: 448
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies:
+- ActiveX
+- FileIO
+title: PolyInfo V1.3
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

@@ -1,0 +1,35 @@
+commands:
+- AttCol
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Prompts for a selection of attributed blocks and displays ;;
+entry_points:
+  complexity: intermediate
+  primary: AttCol
+filename: AttributeColour.lsp
+generated_date: '2025-07-29T11:39:39.531813'
+id: AttributeColour
+line_count: 108
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- attribute
+- block
+- objects
+- interactive
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: AttributeColour
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  version_string: '1.0'

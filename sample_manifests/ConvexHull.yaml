@@ -1,0 +1,30 @@
+commands: []
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Implements the Graham Scan Algorithm to return the Convex Hull of a list
+  of points.
+entry_points:
+  complexity: beginner
+  primary: ''
+filename: ConvexHull.lsp
+generated_date: '2025-07-29T11:39:39.582735'
+id: ConvexHull
+line_count: 45
+primary_category: MATHEMATICAL
+schema_version: '1.0'
+tags:
+- algorithm
+- mathematics
+- computation
+technologies: []
+title: ConvexHull
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - mathematical
+version_info:
+  version_string: '1.0'

@@ -1,0 +1,34 @@
+commands:
+- outline
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to generate one or more closed        ;;
+entry_points:
+  complexity: intermediate
+  primary: outline
+filename: OutlineObjectsV1-1.lsp
+generated_date: '2025-07-29T11:39:39.774566'
+id: OutlineObjectsV1-1
+line_count: 155
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies:
+- ActiveX
+- SelectionSets
+title: OutlineObjects V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

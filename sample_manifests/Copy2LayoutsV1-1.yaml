@@ -1,0 +1,35 @@
+commands:
+- c2al
+- c2l
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables a user to quickly copy a selection of objects  ;;
+entry_points:
+  complexity: intermediate
+  primary: c2al
+filename: Copy2LayoutsV1-1.lsp
+generated_date: '2025-07-29T11:39:39.587670'
+id: Copy2LayoutsV1-1
+line_count: 165
+primary_category: LAYER_DRAWING
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: Copy2Layouts V1.1
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - layer_drawing
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

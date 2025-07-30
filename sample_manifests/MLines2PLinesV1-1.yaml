@@ -1,0 +1,31 @@
+commands:
+- ml2pl
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: beginner
+  primary: ml2pl
+filename: MLines2PLinesV1-1.lsp
+generated_date: '2025-07-29T11:39:39.729495'
+id: MLines2PLinesV1-1
+line_count: 55
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+title: MLines2PLines V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

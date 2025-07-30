@@ -1,0 +1,29 @@
+commands:
+- em
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program continuously prompts the user to specify a point and   ;;
+entry_points:
+  complexity: beginner
+  primary: em
+filename: ElevationMarkerV1-1.lsp
+generated_date: '2025-07-29T11:39:39.645207'
+id: ElevationMarkerV1-1
+line_count: 67
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies: []
+title: ElevationMarker V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

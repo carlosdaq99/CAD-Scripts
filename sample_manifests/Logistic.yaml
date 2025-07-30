@@ -1,0 +1,29 @@
+commands:
+- logistic
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Function maximum occurs at r/4, hence for 0 <= r <= 4,    ;;
+entry_points:
+  complexity: intermediate
+  primary: logistic
+filename: Logistic.lsp
+generated_date: '2025-07-29T11:39:39.721382'
+id: Logistic
+line_count: 102
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+title: Logistic
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

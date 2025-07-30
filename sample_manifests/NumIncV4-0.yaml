@@ -1,0 +1,37 @@
+commands:
+- numinc
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Program Overview                                                                             ;;
+entry_points:
+  complexity: expert
+  primary: numinc
+filename: NumIncV4-0.lsp
+generated_date: '2025-07-29T11:39:39.762284'
+id: NumIncV4-0
+line_count: 5768
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- interactive
+- labeling
+- text
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: NumInc V4.0
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '4'
+  minor: '0'
+  version_string: V4-0

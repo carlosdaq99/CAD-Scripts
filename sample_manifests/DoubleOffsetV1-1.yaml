@@ -1,0 +1,34 @@
+commands:
+- DoubleOffset
+- DOff
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: intermediate
+  primary: DoubleOffset
+filename: DoubleOffsetV1-1.lsp
+generated_date: '2025-07-29T11:39:39.624821'
+id: DoubleOffsetV1-1
+line_count: 203
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies:
+- ActiveX
+title: DoubleOffset V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

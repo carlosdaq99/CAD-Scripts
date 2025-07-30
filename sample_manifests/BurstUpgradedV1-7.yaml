@@ -1,0 +1,36 @@
+commands:
+- pburst
+- nburst
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program operates in much the same way as the familiar          ;;
+entry_points:
+  complexity: intermediate
+  primary: pburst
+filename: BurstUpgradedV1-7.lsp
+generated_date: '2025-07-29T11:39:39.560993'
+id: BurstUpgradedV1-7
+line_count: 310
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- attribute
+- block
+- objects
+technologies:
+- ActiveX
+- SelectionSets
+- FileIO
+title: BurstUpgraded V1.7
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  major: '1'
+  minor: '7'
+  version_string: V1-7

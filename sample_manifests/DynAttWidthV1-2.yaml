@@ -1,0 +1,31 @@
+commands:
+- attw
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to dynamically alter the width        ;;
+entry_points:
+  complexity: advanced
+  primary: attw
+filename: DynAttWidthV1-2.lsp
+generated_date: '2025-07-29T11:39:39.634944'
+id: DynAttWidthV1-2
+line_count: 531
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- FileIO
+title: DynAttWidth V1.2
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

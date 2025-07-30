@@ -1,0 +1,30 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: 'Returns: [bol] T if all linetypes are loaded successfully, else nil'
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: LoadLinetypesV1-3.lsp
+generated_date: '2025-07-29T11:39:39.719725'
+id: LoadLinetypesV1-3
+line_count: 110
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- FileIO
+title: LoadLinetypes V1.3
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

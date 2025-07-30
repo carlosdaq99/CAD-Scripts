@@ -1,0 +1,35 @@
+commands:
+- cbp
+- cbpr
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows the user to change the base point for all       ;;
+entry_points:
+  complexity: intermediate
+  primary: cbp
+filename: ChangeBlockBasePointV1-5.lsp
+generated_date: '2025-07-29T11:39:39.571586'
+id: ChangeBlockBasePointV1-5
+line_count: 268
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- attribute
+- block
+- objects
+technologies:
+- ActiveX
+- FileIO
+title: ChangeBlockBasePoint V1.5
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  major: '1'
+  minor: '5'
+  version_string: V1-5

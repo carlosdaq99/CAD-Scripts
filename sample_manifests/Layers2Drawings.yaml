@@ -1,0 +1,28 @@
+commands:
+- Layers2DWGs
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: intermediate
+  primary: Layers2DWGs
+filename: Layers2Drawings.lsp
+generated_date: '2025-07-29T11:39:39.704481'
+id: Layers2Drawings
+line_count: 189
+primary_category: LAYER_DRAWING
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: Layers2Drawings
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - layer_drawing
+version_info:
+  version_string: '1.0'

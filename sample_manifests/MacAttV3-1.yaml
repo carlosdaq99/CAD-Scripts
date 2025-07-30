@@ -1,0 +1,39 @@
+commands:
+- MacAttExt
+- MacAtt
+- MacAttEdit
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: The function will retrieve specific attributes from blocks that appear
+  in a  ;;
+entry_points:
+  complexity: expert
+  primary: MacAttExt
+filename: MacAttV3-1.lsp
+generated_date: '2025-07-29T11:39:39.736142'
+id: MacAttV3-1
+line_count: 2391
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- interactive
+- automation
+technologies:
+- ObjectDBX
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: MacAtt V3.1
+ui: DCL
+usage_context:
+  automation_level: fully_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '3'
+  minor: '1'
+  version_string: V3-1

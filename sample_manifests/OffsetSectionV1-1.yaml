@@ -1,0 +1,33 @@
+commands:
+- offsec
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program prompts the user to specify an offset distance and to  ;;
+entry_points:
+  complexity: intermediate
+  primary: offsec
+filename: OffsetSectionV1-1.lsp
+generated_date: '2025-07-29T11:39:39.772408'
+id: OffsetSectionV1-1
+line_count: 177
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies:
+- ActiveX
+title: OffsetSection V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

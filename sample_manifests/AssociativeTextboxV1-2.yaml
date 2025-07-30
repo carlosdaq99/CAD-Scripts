@@ -1,0 +1,37 @@
+commands:
+- tbox
+- rtbox
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Program Overview                                                    ;;
+entry_points:
+  complexity: advanced
+  primary: tbox
+filename: AssociativeTextboxV1-2.lsp
+generated_date: '2025-07-29T11:39:39.527628'
+id: AssociativeTextboxV1-2
+line_count: 725
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- reactive
+- labeling
+- text
+technologies:
+- VLR
+- ActiveX
+- SelectionSets
+title: AssociativeTextbox V1.2
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

@@ -1,0 +1,39 @@
+commands:
+- Steal
+- StealTemplate
+- StealAll
+- StealTemplates
+- StealLast
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Program Overview                                       ;;
+entry_points:
+  complexity: expert
+  primary: Steal
+filename: StealV1-8.lsp
+generated_date: '2025-07-29T11:39:39.816099'
+id: StealV1-8
+line_count: 1346
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- interactive
+- automation
+technologies:
+- ObjectDBX
+- DCL
+- ActiveX
+- FileIO
+title: Steal V1.8
+ui: DCL
+usage_context:
+  automation_level: fully_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '8'
+  version_string: V1-8

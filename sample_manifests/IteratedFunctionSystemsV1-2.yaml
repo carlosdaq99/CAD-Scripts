@@ -1,0 +1,33 @@
+commands:
+- ifs
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: '--------------=={ Iterated Function System }==--------------;;'
+entry_points:
+  complexity: intermediate
+  primary: ifs
+filename: IteratedFunctionSystemsV1-2.lsp
+generated_date: '2025-07-29T11:39:39.685072'
+id: IteratedFunctionSystemsV1-2
+line_count: 259
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- ActiveX
+- FileIO
+title: IteratedFunctionSystems V1.2
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

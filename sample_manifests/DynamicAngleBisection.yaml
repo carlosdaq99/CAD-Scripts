@@ -1,0 +1,28 @@
+commands:
+- bisect
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Allows the user to dynamically bisect the angle formed by ;;
+entry_points:
+  complexity: beginner
+  primary: bisect
+filename: DynamicAngleBisection.lsp
+generated_date: '2025-07-29T11:39:39.639436'
+id: DynamicAngleBisection
+line_count: 83
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: DynamicAngleBisection
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

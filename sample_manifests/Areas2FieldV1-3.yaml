@@ -1,0 +1,34 @@
+commands:
+- a2f
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows a user to create an MText object containing a   ;;
+entry_points:
+  complexity: intermediate
+  primary: a2f
+filename: Areas2FieldV1-3.lsp
+generated_date: '2025-07-29T11:39:39.515822'
+id: Areas2FieldV1-3
+line_count: 154
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+- SelectionSets
+title: Areas2Field V1.3
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

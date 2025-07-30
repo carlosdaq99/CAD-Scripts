@@ -1,0 +1,37 @@
+commands:
+- TextCalc
+- TC
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Allows the user to perform arithmetical operations on     ;;
+entry_points:
+  complexity: advanced
+  primary: TextCalc
+filename: TextCalcV1-0.lsp
+generated_date: '2025-07-29T11:39:39.832317'
+id: TextCalcV1-0
+line_count: 408
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- interactive
+- labeling
+- text
+technologies:
+- DCL
+- ActiveX
+- FileIO
+title: TextCalc V1.0
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

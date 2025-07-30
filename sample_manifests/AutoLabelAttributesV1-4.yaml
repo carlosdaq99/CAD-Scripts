@@ -1,0 +1,37 @@
+commands:
+- autolabelon
+- autolabeloff
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program will automatically populate a specific attribute tag   ;;
+entry_points:
+  complexity: advanced
+  primary: autolabelon
+filename: AutoLabelAttributesV1-4.lsp
+generated_date: '2025-07-29T11:39:39.537885'
+id: AutoLabelAttributesV1-4
+line_count: 475
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- reactive
+- labeling
+- text
+technologies:
+- VLR
+- ActiveX
+- SelectionSets
+title: AutoLabelAttributes V1.4
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '4'
+  version_string: V1-4

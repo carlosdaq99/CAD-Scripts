@@ -1,0 +1,32 @@
+commands:
+- IntLenM
+- IntLen
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Displays the length of segments of a curve divided at     ;;
+entry_points:
+  complexity: intermediate
+  primary: IntLenM
+filename: IntLenV1-4.lsp
+generated_date: '2025-07-29T11:39:39.681110'
+id: IntLenV1-4
+line_count: 254
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+title: IntLen V1.4
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '4'
+  version_string: V1-4

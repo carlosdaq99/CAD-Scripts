@@ -1,0 +1,33 @@
+commands:
+- sierpinski3D
+- sierpinski
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows the user to construct a 2D Sierpinski Triangle  ;;
+entry_points:
+  complexity: intermediate
+  primary: sierpinski3D
+filename: SierpinskiV1-0.lsp
+generated_date: '2025-07-29T11:39:39.811267'
+id: SierpinskiV1-0
+line_count: 269
+primary_category: MATHEMATICAL
+schema_version: '1.0'
+tags:
+- algorithm
+- mathematics
+- computation
+technologies: []
+title: Sierpinski V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - mathematical
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

@@ -1,0 +1,36 @@
+commands:
+- c2dwg
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to copy a selection of objects to a   ;;
+entry_points:
+  complexity: expert
+  primary: c2dwg
+filename: Copy2DrawingsV1-3.lsp
+generated_date: '2025-07-29T11:39:39.584654'
+id: Copy2DrawingsV1-3
+line_count: 642
+primary_category: LAYER_DRAWING
+schema_version: '1.0'
+tags:
+- interactive
+- automation
+technologies:
+- ObjectDBX
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: Copy2Drawings V1.3
+ui: DCL
+usage_context:
+  automation_level: fully_automatic
+  typical_workflows:
+  - layer_drawing
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

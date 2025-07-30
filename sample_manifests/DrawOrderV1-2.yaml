@@ -1,0 +1,29 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: 'Returns: T if successful, else nil'
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: DrawOrderV1-2.lsp
+generated_date: '2025-07-29T11:39:39.629559'
+id: DrawOrderV1-2
+line_count: 114
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: DrawOrder V1.2
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

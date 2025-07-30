@@ -1,0 +1,34 @@
+commands:
+- PolyOutline
+- mPolyOutline
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: 'Example Calling Functions (these may be customised to suit your requirements):'
+entry_points:
+  complexity: intermediate
+  primary: PolyOutline
+filename: PolyOutlineV1-1.lsp
+generated_date: '2025-07-29T11:39:39.780747'
+id: PolyOutlineV1-1
+line_count: 188
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies:
+- SelectionSets
+title: PolyOutline V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

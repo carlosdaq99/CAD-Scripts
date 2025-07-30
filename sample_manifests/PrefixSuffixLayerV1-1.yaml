@@ -1,0 +1,31 @@
+commands:
+- pslay
+- rpslay
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows the user to apply or remove a prefix and/or     ;;
+entry_points:
+  complexity: beginner
+  primary: pslay
+filename: PrefixSuffixLayerV1-1.lsp
+generated_date: '2025-07-29T11:39:39.784630'
+id: PrefixSuffixLayerV1-1
+line_count: 93
+primary_category: LAYER_DRAWING
+schema_version: '1.0'
+tags: []
+technologies:
+- SelectionSets
+title: PrefixSuffixLayer V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - layer_drawing
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

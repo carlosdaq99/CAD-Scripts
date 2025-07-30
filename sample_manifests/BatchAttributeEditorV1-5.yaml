@@ -1,0 +1,37 @@
+commands:
+- batte
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Program Description                              ;;
+entry_points:
+  complexity: expert
+  primary: batte
+filename: BatchAttributeEditorV1-5.lsp
+generated_date: '2025-07-29T11:39:39.549895'
+id: BatchAttributeEditorV1-5
+line_count: 2786
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- attribute
+- block
+- objects
+- interactive
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: BatchAttributeEditor V1.5
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  major: '1'
+  minor: '5'
+  version_string: V1-5

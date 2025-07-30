@@ -1,0 +1,36 @@
+commands:
+- cb
+- rb
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows a user to copy and/or rename a single block     ;;
+entry_points:
+  complexity: advanced
+  primary: cb
+filename: CopyRenameBlockV1-5.lsp
+generated_date: '2025-07-29T11:39:39.597125'
+id: CopyRenameBlockV1-5
+line_count: 163
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- attribute
+- automation
+- block
+- objects
+technologies:
+- ObjectDBX
+- ActiveX
+title: CopyRenameBlock V1.5
+ui: CommandLine
+usage_context:
+  automation_level: fully_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  major: '1'
+  minor: '5'
+  version_string: V1-5

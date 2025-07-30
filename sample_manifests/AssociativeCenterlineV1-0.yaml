@@ -1,0 +1,37 @@
+commands:
+- clremove
+- cl
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: advanced
+  primary: clremove
+filename: AssociativeCenterlineV1-0.lsp
+generated_date: '2025-07-29T11:39:39.524772'
+id: AssociativeCenterlineV1-0
+line_count: 218
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- reactive
+- construction
+- curve
+- geometry
+technologies:
+- VLR
+- ActiveX
+- SelectionSets
+title: AssociativeCenterline V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

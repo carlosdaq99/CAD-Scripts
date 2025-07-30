@@ -1,0 +1,38 @@
+id: BatchAttributeEditorV1-5
+filename: BatchAttributeEditorV1-5.lsp
+title: BatchAttributeEditor V1.5
+description: This program allows the user to modify the values of multiple attributes
+primary_category: BLOCK_ATTRIBUTE
+commands:
+- batte
+tags:
+- attribute
+- interactive
+- automation
+- objects
+- block
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+ui: DCL
+complexity: expert
+line_count: 2935
+version_info:
+  major: '1'
+  minor: '5'
+  version_string: V1-5
+entry_points:
+  primary: batte
+  complexity: expert
+dependencies:
+  requires: []
+  integrates_with: []
+  conflicts_with: []
+usage_context:
+  typical_workflows:
+  - block_attribute
+  automation_level: fully_automatic
+generated_date: '2025-07-29T11:29:34.646720'
+schema_version: '1.0'

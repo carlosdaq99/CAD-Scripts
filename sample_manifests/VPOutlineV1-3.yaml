@@ -1,0 +1,36 @@
+commands:
+- vpo
+- vpoa
+- vpol
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows the user to automatically generate a polyline   ;;
+entry_points:
+  complexity: intermediate
+  primary: vpo
+filename: VPOutlineV1-3.lsp
+generated_date: '2025-07-29T11:39:39.842078'
+id: VPOutlineV1-3
+line_count: 368
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies:
+- ActiveX
+- SelectionSets
+title: ' VPOutline V1.3'
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

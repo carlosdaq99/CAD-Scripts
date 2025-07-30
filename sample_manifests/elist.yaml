@@ -1,0 +1,28 @@
+commands:
+- ee
+- eex
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Displays the DXF Information for an entity, a variation   ;;
+entry_points:
+  complexity: beginner
+  primary: ee
+filename: elist.lsp
+generated_date: '2025-07-29T11:39:39.848245'
+id: elist
+line_count: 61
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies: []
+title: elist
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

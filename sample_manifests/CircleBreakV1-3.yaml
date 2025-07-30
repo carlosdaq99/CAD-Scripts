@@ -1,0 +1,33 @@
+commands:
+- cbrk
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to break a circle or ellipse into     ;;
+entry_points:
+  complexity: intermediate
+  primary: cbrk
+filename: CircleBreakV1-3.lsp
+generated_date: '2025-07-29T11:39:39.574165'
+id: CircleBreakV1-3
+line_count: 181
+primary_category: MATHEMATICAL
+schema_version: '1.0'
+tags:
+- algorithm
+- mathematics
+- computation
+technologies:
+- ActiveX
+title: CircleBreak V1.3
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - mathematical
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

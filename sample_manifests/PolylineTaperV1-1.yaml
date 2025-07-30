@@ -1,0 +1,33 @@
+commands:
+- ptaper
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows the user to apply a tapered width across all    ;;
+entry_points:
+  complexity: intermediate
+  primary: ptaper
+filename: PolylineTaperV1-1.lsp
+generated_date: '2025-07-29T11:39:39.782600'
+id: PolylineTaperV1-1
+line_count: 121
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies:
+- SelectionSets
+title: PolylineTaper V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

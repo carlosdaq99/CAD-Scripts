@@ -1,0 +1,33 @@
+commands:
+- aarc
+- aarcsettings
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to construct an arc with arrowheads   ;;
+entry_points:
+  complexity: intermediate
+  primary: aarc
+filename: ArrowArcV1-2.lsp
+generated_date: '2025-07-29T11:39:39.517717'
+id: ArrowArcV1-2
+line_count: 175
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies: []
+title: ArrowArc V1.2
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

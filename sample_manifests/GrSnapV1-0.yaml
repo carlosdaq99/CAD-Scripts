@@ -1,0 +1,29 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: 'Object Snap for grread: Snap Function  -  Lee Mac'
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: GrSnapV1-0.lsp
+generated_date: '2025-07-29T11:39:39.671740'
+id: GrSnapV1-0
+line_count: 234
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: GrSnap V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

@@ -1,0 +1,39 @@
+commands:
+- DTCurve
+- DTRemove
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: The Program will prompt the user to either Select existing text to align,    ;;
+entry_points:
+  complexity: expert
+  primary: DTCurve
+filename: DTCurveV2-9.lsp
+generated_date: '2025-07-29T11:39:39.616042'
+id: DTCurveV2-9
+line_count: 1074
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- text
+- reactive
+- labeling
+- interactive
+technologies:
+- DCL
+- VLR
+- ActiveX
+- FileIO
+title: DTCurve V2.9
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '2'
+  minor: '9'
+  version_string: V2-9

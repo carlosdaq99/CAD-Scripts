@@ -1,0 +1,31 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: MD5 Cryptographic Hash Function  -  V1.1 2016-03-27  -  Lee Mac
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: MD5-V1-1.lsp
+generated_date: '2025-07-29T11:39:39.726046'
+id: MD5-V1-1
+line_count: 174
+primary_category: MATHEMATICAL
+schema_version: '1.0'
+tags:
+- algorithm
+- mathematics
+- computation
+technologies: []
+title: MD5. V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - mathematical
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

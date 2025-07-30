@@ -1,0 +1,33 @@
+commands:
+- e2a
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program will allow the user to convert a selection of circular ;;
+entry_points:
+  complexity: intermediate
+  primary: e2a
+filename: Ellipse2ArcV1-1.lsp
+generated_date: '2025-07-29T11:39:39.646898'
+id: Ellipse2ArcV1-1
+line_count: 107
+primary_category: MATHEMATICAL
+schema_version: '1.0'
+tags:
+- algorithm
+- mathematics
+- computation
+technologies:
+- SelectionSets
+title: Ellipse2Arc V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - mathematical
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

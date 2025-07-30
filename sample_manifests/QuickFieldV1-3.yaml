@@ -1,0 +1,35 @@
+commands:
+- test2
+- test3
+- test1
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Quick Field Program  -  Lee Mac                                     ;;
+entry_points:
+  complexity: intermediate
+  primary: test2
+filename: QuickFieldV1-3.lsp
+generated_date: '2025-07-29T11:39:39.791885'
+id: QuickFieldV1-3
+line_count: 278
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+title: QuickField V1.3
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

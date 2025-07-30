@@ -1,0 +1,32 @@
+commands: []
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Returns the field expression associated with an entity
+entry_points:
+  complexity: beginner
+  primary: ''
+filename: FieldCodeV1-1.lsp
+generated_date: '2025-07-29T11:39:39.656551'
+id: FieldCodeV1-1
+line_count: 66
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+title: FieldCode V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

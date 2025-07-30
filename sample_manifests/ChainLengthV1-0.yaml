@@ -1,0 +1,31 @@
+commands:
+- chainlen
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to calculate the total object length  ;;
+entry_points:
+  complexity: intermediate
+  primary: chainlen
+filename: ChainLengthV1-0.lsp
+generated_date: '2025-07-29T11:39:39.567811'
+id: ChainLengthV1-0
+line_count: 200
+primary_category: SELECTION_ENTITY
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+title: ChainLength V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - selection_entity
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

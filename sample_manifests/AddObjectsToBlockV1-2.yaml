@@ -1,0 +1,34 @@
+commands:
+- addtoblock
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to add a selection of objects to the  ;;
+entry_points:
+  complexity: intermediate
+  primary: addtoblock
+filename: AddObjectsToBlockV1-2.lsp
+generated_date: '2025-07-29T11:39:39.502910'
+id: AddObjectsToBlockV1-2
+line_count: 257
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- attribute
+- block
+- objects
+technologies:
+- ActiveX
+- SelectionSets
+title: AddObjectsToBlock V1.2
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

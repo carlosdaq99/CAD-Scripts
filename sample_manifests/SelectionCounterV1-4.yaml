@@ -1,0 +1,33 @@
+commands:
+- selcountoff
+- selcounton
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: '- Program modified to fix bug when using the UNDO command.          ;;'
+entry_points:
+  complexity: advanced
+  primary: selcountoff
+filename: SelectionCounterV1-4.lsp
+generated_date: '2025-07-29T11:39:39.807220'
+id: SelectionCounterV1-4
+line_count: 103
+primary_category: SELECTION_ENTITY
+schema_version: '1.0'
+tags:
+- reactive
+technologies:
+- VLR
+- SelectionSets
+title: SelectionCounter V1.4
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - selection_entity
+version_info:
+  major: '1'
+  minor: '4'
+  version_string: V1-4

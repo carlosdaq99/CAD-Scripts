@@ -1,0 +1,32 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: 'Returns a list of: ((10 <WCS Center>) (11 <WCS Major Axis Endpoint from
+  Center>) (40 . <Minor/Major Ratio>))'
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: 5PointEllipseV1-1.lsp
+generated_date: '2025-07-29T11:39:39.496864'
+id: 5PointEllipseV1-1
+line_count: 136
+primary_category: MATHEMATICAL
+schema_version: '1.0'
+tags:
+- algorithm
+- mathematics
+- computation
+technologies: []
+title: 5PointEllipse V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - mathematical
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

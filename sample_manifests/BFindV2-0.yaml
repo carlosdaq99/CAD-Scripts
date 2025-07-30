@@ -1,0 +1,36 @@
+commands:
+- BFind
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This could be accomplished programmatically, but has been omitted for
+  better ;;
+entry_points:
+  complexity: expert
+  primary: BFind
+filename: BFindV2-0.lsp
+generated_date: '2025-07-29T11:39:39.543762'
+id: BFindV2-0
+line_count: 1914
+primary_category: SELECTION_ENTITY
+schema_version: '1.0'
+tags:
+- interactive
+- automation
+technologies:
+- ObjectDBX
+- DCL
+- ActiveX
+- FileIO
+title: BFind V2.0
+ui: DCL
+usage_context:
+  automation_level: fully_automatic
+  typical_workflows:
+  - selection_entity
+version_info:
+  major: '2'
+  minor: '0'
+  version_string: V2-0

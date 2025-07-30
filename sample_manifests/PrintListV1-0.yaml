@@ -1,0 +1,28 @@
+commands: []
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: beginner
+  primary: ''
+filename: PrintListV1-0.lsp
+generated_date: '2025-07-29T11:39:39.786586'
+id: PrintListV1-0
+line_count: 39
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies: []
+title: PrintList V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

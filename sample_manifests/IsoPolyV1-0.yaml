@@ -1,0 +1,32 @@
+commands:
+- isopoly
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Enables the user to construct a regular polygon projected ;;
+entry_points:
+  complexity: beginner
+  primary: isopoly
+filename: IsoPolyV1-0.lsp
+generated_date: '2025-07-29T11:39:39.682937'
+id: IsoPolyV1-0
+line_count: 74
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies: []
+title: IsoPoly V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

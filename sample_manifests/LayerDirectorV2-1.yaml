@@ -1,0 +1,33 @@
+commands:
+- ldon
+- ldoff
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program uses a Visual LISP Command Reactor to automatically    ;;
+entry_points:
+  complexity: advanced
+  primary: ldon
+filename: LayerDirectorV2-1.lsp
+generated_date: '2025-07-29T11:39:39.699948'
+id: LayerDirectorV2-1
+line_count: 558
+primary_category: LAYER_DRAWING
+schema_version: '1.0'
+tags:
+- reactive
+technologies:
+- VLR
+- ActiveX
+title: LayerDirector V2.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - layer_drawing
+version_info:
+  major: '2'
+  minor: '1'
+  version_string: V2-1

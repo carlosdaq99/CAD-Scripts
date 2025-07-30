@@ -1,0 +1,29 @@
+commands: []
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: beginner
+  primary: ''
+filename: ReadCSV-V1-3.lsp
+generated_date: '2025-07-29T11:39:39.796917'
+id: ReadCSV-V1-3
+line_count: 51
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- FileIO
+title: ReadCS V. V1.3
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

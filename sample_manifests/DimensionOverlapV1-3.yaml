@@ -1,0 +1,31 @@
+commands:
+- dimoverlap
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program will automatically detect overlapping dimensions in    ;;
+entry_points:
+  complexity: intermediate
+  primary: dimoverlap
+filename: DimensionOverlapV1-3.lsp
+generated_date: '2025-07-29T11:39:39.620161'
+id: DimensionOverlapV1-3
+line_count: 278
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+title: DimensionOverlap V1.3
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

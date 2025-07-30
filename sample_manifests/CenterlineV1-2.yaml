@@ -1,0 +1,32 @@
+commands:
+- cline
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Creates a pair of centerlines for Arcs, Circles, Ellipses ;;
+entry_points:
+  complexity: beginner
+  primary: cline
+filename: CenterlineV1-2.lsp
+generated_date: '2025-07-29T11:39:39.564941'
+id: CenterlineV1-2
+line_count: 51
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies: []
+title: Centerline V1.2
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

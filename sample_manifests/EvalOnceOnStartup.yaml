@@ -1,0 +1,27 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Function returns T if expressions are written successfully.
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: EvalOnceOnStartup.lsp
+generated_date: '2025-07-29T11:39:39.650376'
+id: EvalOnceOnStartup
+line_count: 122
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- FileIO
+title: EvalOnceOnStartup
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

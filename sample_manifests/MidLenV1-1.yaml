@@ -1,0 +1,32 @@
+commands:
+- midlen
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program prompts the user for a selection of objects to be      ;;
+entry_points:
+  complexity: intermediate
+  primary: midlen
+filename: MidLenV1-1.lsp
+generated_date: '2025-07-29T11:39:39.749073'
+id: MidLenV1-1
+line_count: 185
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+- FileIO
+title: MidLen V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

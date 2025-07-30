@@ -1,0 +1,34 @@
+commands:
+- mff
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to copy the formatting from a         ;;
+entry_points:
+  complexity: intermediate
+  primary: mff
+filename: MatchFieldFormattingV1-2.lsp
+generated_date: '2025-07-29T11:39:39.745218'
+id: MatchFieldFormattingV1-2
+line_count: 296
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+- FileIO
+title: MatchFieldFormatting V1.2
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

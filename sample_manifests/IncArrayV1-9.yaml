@@ -1,0 +1,32 @@
+commands:
+- incarrayd
+- incarray
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program will array a selection of objects, whilst incrementing ;;
+entry_points:
+  complexity: intermediate
+  primary: incarrayd
+filename: IncArrayV1-9.lsp
+generated_date: '2025-07-29T11:39:39.678989'
+id: IncArrayV1-9
+line_count: 352
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+title: IncArray V1.9
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '9'
+  version_string: V1-9

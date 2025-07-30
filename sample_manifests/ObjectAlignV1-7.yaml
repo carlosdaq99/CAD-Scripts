@@ -1,0 +1,34 @@
+commands:
+- oa
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program will enable the user to dynamically align a selection  ;;
+entry_points:
+  complexity: intermediate
+  primary: oa
+filename: ObjectAlignV1-7.lsp
+generated_date: '2025-07-29T11:39:39.764581'
+id: ObjectAlignV1-7
+line_count: 443
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+- SelectionSets
+title: ObjectAlign V1.7
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '7'
+  version_string: V1-7

@@ -1,0 +1,32 @@
+commands:
+- QM
+- QMO
+- QMOD
+- QMD
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Provides functionality to mirror a selection of objects   ;;
+entry_points:
+  complexity: intermediate
+  primary: QM
+filename: QuickMirror.lsp
+generated_date: '2025-07-29T11:39:39.794060'
+id: QuickMirror
+line_count: 105
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+title: QuickMirror
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

@@ -1,0 +1,32 @@
+commands:
+- cs
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program prompts the user to select an object and generates a   ;;
+entry_points:
+  complexity: intermediate
+  primary: cs
+filename: ChainSelV1-1.lsp
+generated_date: '2025-07-29T11:39:39.569689'
+id: ChainSelV1-1
+line_count: 150
+primary_category: SELECTION_ENTITY
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+- FileIO
+title: ChainSel V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - selection_entity
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

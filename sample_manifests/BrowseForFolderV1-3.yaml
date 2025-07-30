@@ -1,0 +1,29 @@
+commands: []
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Displays a dialog prompting the user to select a folder.
+entry_points:
+  complexity: beginner
+  primary: ''
+filename: BrowseForFolderV1-3.lsp
+generated_date: '2025-07-29T11:39:39.558886'
+id: BrowseForFolderV1-3
+line_count: 33
+primary_category: USER_INTERFACE
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: BrowseForFolder V1.3
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - user_interface
+version_info:
+  major: '1'
+  minor: '3'
+  version_string: V1-3

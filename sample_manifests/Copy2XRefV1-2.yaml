@@ -1,0 +1,33 @@
+commands:
+- c2x
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to copy a selection of objects to a   ;;
+entry_points:
+  complexity: advanced
+  primary: c2x
+filename: Copy2XRefV1-2.lsp
+generated_date: '2025-07-29T11:39:39.589824'
+id: Copy2XRefV1-2
+line_count: 229
+primary_category: LAYER_DRAWING
+schema_version: '1.0'
+tags:
+- automation
+technologies:
+- ObjectDBX
+- ActiveX
+- SelectionSets
+title: Copy2XRef V1.2
+ui: CommandLine
+usage_context:
+  automation_level: fully_automatic
+  typical_workflows:
+  - layer_drawing
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

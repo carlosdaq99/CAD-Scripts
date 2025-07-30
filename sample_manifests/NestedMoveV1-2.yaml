@@ -1,0 +1,33 @@
+commands:
+- nmove
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to move multiple selected objects     ;;
+entry_points:
+  complexity: advanced
+  primary: nmove
+filename: NestedMoveV1-2.lsp
+generated_date: '2025-07-29T11:39:39.754574'
+id: NestedMoveV1-2
+line_count: 427
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- automation
+technologies:
+- ObjectDBX
+- ActiveX
+- FileIO
+title: NestedMove V1.2
+ui: CommandLine
+usage_context:
+  automation_level: fully_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

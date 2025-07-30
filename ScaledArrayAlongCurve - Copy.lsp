@@ -1,30 +1,4 @@
 ;;; ========================================================================
-;;; BLOCK CREATION HELPER (Lee Mac style, robust and modular)
-;;; ========================================================================
-(defun create-block-from-entities (block-name base-point entity-list / block-def)
-  ;; Ensure block name is unique
-  (while (tblsearch "BLOCK" block-name)
-    (setq block-name (strcat block-name "_" (rtos (getvar "CDATE") 2 0)))
-  )
-  ;; Create block definition
-  (setq block-def (entmakex (list (cons 0 "BLOCK")
-                                  (cons 2 block-name)
-                                  (cons 70 0)
-                                  (cons 10 base-point))))
-  ;; Add valid entities to block
-  (foreach e entity-list
-    (if (and e (entget e))
-      (progn
-        (entmakex (append (list (cons 330 block-def))
-                          (vl-remove-if '(lambda (x) (= (car x) 330)) (entget e))))
-        (entdel e)
-      )
-    )
-  )
-  (entmakex (list (cons 0 "ENDBLK")))
-  block-name
-)
-;;; ========================================================================
 ;;; ========================================================================
 ;;; SCALED ARRAY ALONG CURVE - AutoLISP Script
 ;;; ========================================================================
@@ -53,37 +27,12 @@
 ;;; Date: 2025-07-26
 ;;; ========================================================================
 
-
-;;; ========================================================================
-;;; PROJECT INSTRUCTIONS & LEE MAC REFERENCE
-;;; ========================================================================
-;; This script was refactored to follow project-wide instructions:
-;; - Always check AutoLISP_functions for reusable helpers before new logic
-;; - Reference Lee Mac code for best practices (see LeeMac_lsp_programs)
-;; - Document any deviation from Lee Mac or project conventions
-;;
-;; Lee Mac reference: Block creation and error handler patterns adapted from
-;;   - LeeMac_lsp_programs/Copy2DrawingsV1-3.lsp
-;;   - LeeMac_lsp_programs/ChainLengthV1-0.lsp
-;;
-;; Deviations: Custom block creation logic used for grouping, as Lee Mac's block
-;; routines expect specific entity types. Rationale: Needed to support arbitrary objects.
-
 (vl-load-com)
-;;; ========================================================================
-;;; REUSABLE FUNCTION CHECK (AutoLISP_functions)
-;;; ========================================================================
-;; Before implementing new logic, check for reusable helpers in AutoLISP_functions.lsp
-;; Example: validate-curve-object, block creation, logging
-;; If not found, document rationale for new implementation below.
 
 ;;; ========================================================================
 ;;; LOGGING SYSTEM
 ;;; ========================================================================
 
-;;; ========================================================================
-;;; LOGGING SYSTEM (Reusable from AutoLISP_functions if available)
-;;; ========================================================================
 (defun log-debug (message / log-file current-time)
   ;; This function writes debug messages to a log file with a timestamp.
   ;; It helps you track what the script is doing and diagnose problems.
@@ -125,9 +74,6 @@
 ;;; HELPER FUNCTIONS
 ;;; ========================================================================
 
-;;; ========================================================================
-;;; CURVE VALIDATION (Check for reusable function in AutoLISP_functions)
-;;; ========================================================================
 (defun validate-curve-object (curve-ename / curve-obj curve-type)
   ;; This function checks if the selected entity is a valid curve type.
   ;; Only certain curve types (splines, polylines, arcs, etc.) are supported.
@@ -228,9 +174,6 @@
   )
 )
 
-;;; ========================================================================
-;;; COPY AND SCALE OBJECT (Check for reusable function in AutoLISP_functions)
-;;; ========================================================================
 (defun copy-and-scale-object (source-obj base-point target-point scale-factor rotation-angle / new-obj cmd-result)
   ;; This function copies the original object, moves it to the target point,
   ;; scales it, and rotates it if needed. Returns the new object's entity name.
@@ -283,10 +226,6 @@
 ;;; MAIN FUNCTION (Renamed to match file name)
 ;;; ========================================================================
 
-;;; ========================================================================
-;;; MAIN FUNCTION (Lee Mac error handler pattern, undo marks)
-;;; ========================================================================
-;; Improved undo handling and error handler reliability
 (defun C:ScaledArrayAlongCurve ( / 
   ;; This is the main function that runs when you type ScaledArrayAlongCurve in AutoCAD.
   ;; It guides you through selecting objects, setting parameters, and creates the block.
@@ -300,22 +239,24 @@
   old-error old-cmdecho
   )
   
-  ;; Error handler setup (Lee Mac local pattern with undo marks)
-  (setq old-error *error*)
-  (setq old-cmdecho (getvar "CMDECHO"))
-  (defun lm-error (msg)
-    (if (= (getvar "CMDECHO") 0) (setvar "CMDECHO" old-cmdecho))
-    (if old-error (setq *error* old-error))
-    (if (= (getvar "UNDO") "Group") (command "_.UNDO" "_END"))
+  ;; Error handler setup
+  ;; Set up error handling so the script can clean up and exit gracefully if something goes wrong.
+  (defun temp-error (msg)
     (log-debug (strcat "ERROR: " (if msg msg "Unknown error")))
+    (if old-cmdecho (setvar "CMDECHO" old-cmdecho))
+    (if old-error (setq *error* old-error))
     (princ "\nSCALEDCOPY interrupted or failed.")
     (princ)
   )
-  (setq *error* lm-error)
-  (command "_.UNDO" "_BE")
+  
   ;; Initialize logging
+  ;; Start logging for this session.
   (log-start)
   (log-debug "Starting ScaledArrayAlongCurve command")
+  
+  (setq old-error *error*)
+  (setq *error* temp-error)
+  (setq old-cmdecho (getvar "CMDECHO"))
   (setvar "CMDECHO" 0)
   
   (princ "\n=== SCALED ARRAY ALONG CURVE ===")
@@ -332,7 +273,6 @@
     (progn
       (log-debug "No object selected by user")
       (princ "\nNo object selected. Command cancelled.")
-      (command "_.UNDO" "_END")
       (setq *error* old-error)
       (setvar "CMDECHO" old-cmdecho)
       (exit)
@@ -347,7 +287,6 @@
   (if (not base-point)
     (progn
       (princ "\nNo base point specified. Command cancelled.")
-      (command "_.UNDO" "_END")
       (setq *error* old-error)
       (setvar "CMDECHO" old-cmdecho)
       (exit)
@@ -361,7 +300,6 @@
   (if (not curve-ename)
     (progn
       (princ "\nNo curve selected. Command cancelled.")
-      (command "_.UNDO" "_END")
       (setq *error* old-error)
       (setvar "CMDECHO" old-cmdecho)
       (exit)
@@ -376,7 +314,6 @@
     (progn
       (log-debug "Curve validation failed - not a valid curve type")
       (princ "\nSelected object is not a valid curve. Please select a spline, arc, polyline, or similar curve object.")
-      (command "_.UNDO" "_END")
       (setq *error* old-error)
       (setvar "CMDECHO" old-cmdecho)
       (exit)
@@ -436,7 +373,6 @@
     (progn
       (log-debug (strcat "Invalid curve length: " (rtos curve-length 2 6)))
       (princ "\nCurve length is too small or invalid.")
-      (command "_.UNDO" "_END")
       (setq *error* old-error)
       (setvar "CMDECHO" old-cmdecho)
       (exit)
@@ -490,22 +426,37 @@
     )
     (setq i (1+ i))
   )
-  ;; Modularized block creation and entity grouping (Lee Mac style)
-  (setq block-base (vlax-curve-getPointAtDist curve-obj 0))
+  ;; Create block definition from all copies
+  ;; Create a new block definition that includes the original object and all copies.
   (setq block-name (strcat "SCALEDARRAY_" (rtos (getvar "CDATE") 2 0)))
-  (setq block-name (create-block-from-entities block-name block-base copy-entities))
+  (setq block-def (entmakex (list (cons 0 "BLOCK")
+                                  (cons 2 block-name)
+                                  (cons 70 0)
+                                  (cons 10 (vlax-curve-getPointAtDist curve-obj 0)))))
+  (foreach e copy-entities
+    ;; For each entity (original + copies), add it to the block definition and then delete it from the drawing.
+    (entmakex (subst (cons 330 block-def)
+                     (assoc 330 (entget e))
+                     (entget e)))
+    (entdel e)
+  )
+  (entmakex (list (cons 0 "ENDBLK")))
+  ;; Close the block definition.
+  ;; The original object is now included in copy-entities and handled above
   ;; Insert block at start of curve
+  ;; Insert the new block at the start of the curve.
   (setq block-insert (entmakex (list (cons 0 "INSERT")
                                      (cons 2 block-name)
-                                     (cons 10 block-base))))
+                                     (cons 10 (vlax-curve-getPointAtDist curve-obj 0)))))
   (princ "\nBlock created. All copies are a single selectable unit.")
-  ;; Restore error handler and CMDECHO
-  (command "_.UNDO" "_END")
+  ;; Inform the user that the block was created successfully.
   (setq *error* old-error)
   (setvar "CMDECHO" old-cmdecho)
   (log-debug "=== SCALEDARRAYALONGCURVE SESSION COMPLETED SUCCESSFULLY ===")
   (princ (strcat "\n\n=== OPERATION COMPLETE ==="))
+  ;; Print a completion message.
   (princ (strcat "\nSuccessfully created " (itoa num-copies) " scaled copies along the curve."))
+  ;; Print a summary of what was done.
   (princ)
 )
 

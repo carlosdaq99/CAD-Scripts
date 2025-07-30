@@ -1,0 +1,38 @@
+commands:
+- stx
+- ctx
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables a user to either copy the text content from    ;;
+entry_points:
+  complexity: advanced
+  primary: stx
+filename: CopySwapTextV1-8.lsp
+generated_date: '2025-07-29T11:39:39.599243'
+id: CopySwapTextV1-8
+line_count: 602
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- interactive
+- labeling
+- text
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: CopySwapText V1.8
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '8'
+  version_string: V1-8

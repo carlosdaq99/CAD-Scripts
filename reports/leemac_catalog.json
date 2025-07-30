@@ -1,0 +1,7616 @@
+{
+  "metadata": {
+    "title": "LeeMac AutoLISP Scripts Catalog",
+    "description": "Machine-readable catalog of 158 professional AutoLISP scripts",
+    "total_scripts": 163,
+    "generated_date": "2025-07-29T11:39:51.429552",
+    "schema_version": "1.0"
+  },
+  "categories": {
+    "GEOMETRIC_CURVE": [
+      "2DProjectionV1-0",
+      "AddLWPolylineVertexV1-1",
+      "AdvancedPolyOutlineV1-1",
+      "ArrowArcV1-2",
+      "AssociativeCenterlineV1-0",
+      "CenterlineV1-2",
+      "DoubleExtendV1-0",
+      "DoubleOffsetV1-1",
+      "IsoPolyV1-0",
+      "ObjectBreakV1-0",
+      "OffsetSectionV1-1",
+      "OutlineObjectsV1-1",
+      "PolyInfoV1-3",
+      "PolylineTaperV1-1",
+      "PolyOutlineV1-1",
+      "TotalLengthPolylineV1-0",
+      "VPOutlineV1-3"
+    ],
+    "MATHEMATICAL": [
+      "5PointEllipseV1-1",
+      "CircleBreakV1-3",
+      "CircleTangentsV1-0",
+      "ConvexHull",
+      "ConvexHull",
+      "Ellipse2ArcV1-1",
+      "MD5-V1-1",
+      "MinEncCircle",
+      "MinimumEnclosingCircleV1-1",
+      "SierpinskiV1-0"
+    ],
+    "SPECIALIZED": [
+      "ACADDOCCreatorV1-1",
+      "AttModSuiteV1-1",
+      "Autoloader",
+      "BoundingBoxReactorV1-0",
+      "CircularWipeoutV1-2",
+      "CircularWipeoutV1-2",
+      "ClockV1-1",
+      "CMeasure",
+      "CursorRotateV1-0",
+      "DimensionOverlapV1-3",
+      "DInfoV1-5",
+      "DrawGridV1-1",
+      "DrawOrderV1-2",
+      "DynamicAngleBisection",
+      "DynAttWidthV1-2",
+      "DynOffV2-1",
+      "ElevationMarkerV1-1",
+      "elist",
+      "EntityToPointListV1-2",
+      "EvalOnceOnStartup",
+      "GetFilesV1-6",
+      "GetSyntax",
+      "GetTrueContent",
+      "GrSnapV1-0",
+      "IncArrayV1-9",
+      "IntLenV1-4",
+      "IteratedFunctionSystemsV1-2",
+      "JustifyBasePointV1-1",
+      "Koch",
+      "LDOrderV1-2",
+      "LISPLogV1-0",
+      "LISPStyler",
+      "ListTileDependencyV1-1",
+      "LoadLinetypesV1-3",
+      "Logistic",
+      "Lotto",
+      "MacAttV3-1",
+      "MaskV1-5",
+      "Mastermind",
+      "MatchAttribs",
+      "MidLenV1-1",
+      "MLines2PLinesV1-1",
+      "MLJustV1-0",
+      "MPlineV1-1",
+      "ms2psV1-0",
+      "MTEditReactorV1-1",
+      "NestedMoveV1-2",
+      "ObjectDBXWrapperV1-2",
+      "ObjectLock",
+      "Password",
+      "PrintListV1-0",
+      "PtManagerV2-4",
+      "QuickMirror",
+      "ReadCSV-V1-3",
+      "ScriptWriterV1-2",
+      "StarV1-2",
+      "StealV1-8",
+      "StrikethroughV1-2",
+      "TabSortV2-2",
+      "TipV1-1",
+      "WriteCSV-V1-1",
+      "XLineV1-0"
+    ],
+    "BLOCK_ATTRIBUTE": [
+      "AddObjectsToBlockV1-2",
+      "Areas2AttributeV1-2",
+      "AttributeColour",
+      "AttributeFunctions",
+      "AutoBlockBreakV1-9",
+      "BatchAttributeEditorV1-5",
+      "BatchAttributeEditorV1-5",
+      "BlockCountV1-5",
+      "BurstUpgradedV1-7",
+      "ChangeBlockBasePointV1-5",
+      "CopyBlockDefinitionV1-1",
+      "CopyRenameBlockV1-5",
+      "CountAttributeValuesV1-1",
+      "DeleteBlocksV1-1",
+      "ExtractNestedBlockV1-2",
+      "ImportBlockV1-2",
+      "SumAttributeValuesV1-1",
+      "UpdateTitleblockV1-9"
+    ],
+    "TEXT_ANNOTATION": [
+      "AlignTextToCurveV1-5",
+      "AlignTextV1-4",
+      "AreaLabelV1-9",
+      "Areas2FieldV1-3",
+      "AssociativeTextboxV1-2",
+      "AutoLabelAttributesV1-4",
+      "BoxTextV1-3",
+      "CopyFieldV1-1",
+      "CopySwapTextV1-8",
+      "CurveTextV1-4",
+      "DTCurveV2-9",
+      "DynamicTextAlignV1-6",
+      "FieldArithmeticV1-2",
+      "FieldCodeV1-1",
+      "FieldFormatV1-1",
+      "FieldObjectsV1-1",
+      "GrTextV1-1",
+      "LabelV1-1",
+      "LayoutFieldV1-0",
+      "LengthAreaFieldV1-4",
+      "LengthFieldToAttributeV1-0",
+      "MatchFieldFormattingV1-2",
+      "MatchTextProps",
+      "NumIncV4-0",
+      "NumIncV4-0",
+      "ObjectAlignV1-7",
+      "QuickFieldV1-3",
+      "SegmentCurveV1-1",
+      "ShowHatchTextV1-0",
+      "Text2MTextV2-0",
+      "Text2WordsV1-1",
+      "TextCalcV1-0"
+    ],
+    "SELECTION_ENTITY": [
+      "BFindV2-0",
+      "ChainLengthV1-0",
+      "ChainSelV1-1",
+      "CountV1-5",
+      "DBCountV1-1",
+      "FilteredListBoxV1-1",
+      "SelectionCounterV1-4",
+      "TCountV1-1"
+    ],
+    "USER_INTERFACE": [
+      "BrowseForFolderV1-3",
+      "FormatDCLV1-0",
+      "ListBoxFunctionsV1-1",
+      "ListBoxV1-2"
+    ],
+    "LAYER_DRAWING": [
+      "Copy2DrawingsV1-3",
+      "Copy2LayoutsV1-1",
+      "Copy2XRefV1-2",
+      "DrawingVersionV1-1",
+      "LayerDirectorV2-1",
+      "LayerDirectorV2-1",
+      "LayerExtractV1-4",
+      "Layers2Drawings",
+      "PrefixSuffixLayerV1-1",
+      "RenumberLayoutsV1-2",
+      "ResetXRefLayersV1-2"
+    ],
+    "IMPORT_EXPORT": [
+      "DumpObjectV1-2"
+    ]
+  },
+  "technologies": {
+    "ActiveX": [
+      "2DProjectionV1-0",
+      "ACADDOCCreatorV1-1",
+      "AddLWPolylineVertexV1-1",
+      "AddObjectsToBlockV1-2",
+      "AdvancedPolyOutlineV1-1",
+      "AlignTextToCurveV1-5",
+      "AlignTextV1-4",
+      "AreaLabelV1-9",
+      "Areas2AttributeV1-2",
+      "Areas2FieldV1-3",
+      "AssociativeCenterlineV1-0",
+      "AssociativeTextboxV1-2",
+      "AttModSuiteV1-1",
+      "AttributeColour",
+      "AttributeFunctions",
+      "AutoBlockBreakV1-9",
+      "AutoLabelAttributesV1-4",
+      "Autoloader",
+      "BatchAttributeEditorV1-5",
+      "BatchAttributeEditorV1-5",
+      "BFindV2-0",
+      "BoundingBoxReactorV1-0",
+      "BoxTextV1-3",
+      "BrowseForFolderV1-3",
+      "BurstUpgradedV1-7",
+      "ChainLengthV1-0",
+      "ChainSelV1-1",
+      "ChangeBlockBasePointV1-5",
+      "CircleBreakV1-3",
+      "CircleTangentsV1-0",
+      "ClockV1-1",
+      "CMeasure",
+      "Copy2DrawingsV1-3",
+      "Copy2LayoutsV1-1",
+      "Copy2XRefV1-2",
+      "CopyBlockDefinitionV1-1",
+      "CopyFieldV1-1",
+      "CopyRenameBlockV1-5",
+      "CopySwapTextV1-8",
+      "CountAttributeValuesV1-1",
+      "CountV1-5",
+      "CursorRotateV1-0",
+      "CurveTextV1-4",
+      "DBCountV1-1",
+      "DeleteBlocksV1-1",
+      "DimensionOverlapV1-3",
+      "DInfoV1-5",
+      "DoubleExtendV1-0",
+      "DoubleOffsetV1-1",
+      "DrawOrderV1-2",
+      "DTCurveV2-9",
+      "DumpObjectV1-2",
+      "DynamicAngleBisection",
+      "DynamicTextAlignV1-6",
+      "DynAttWidthV1-2",
+      "DynOffV2-1",
+      "EntityToPointListV1-2",
+      "ExtractNestedBlockV1-2",
+      "FieldArithmeticV1-2",
+      "FieldCodeV1-1",
+      "FieldFormatV1-1",
+      "FieldObjectsV1-1",
+      "GetFilesV1-6",
+      "GetTrueContent",
+      "GrSnapV1-0",
+      "ImportBlockV1-2",
+      "IncArrayV1-9",
+      "IntLenV1-4",
+      "IteratedFunctionSystemsV1-2",
+      "JustifyBasePointV1-1",
+      "LabelV1-1",
+      "LayerDirectorV2-1",
+      "LayerDirectorV2-1",
+      "LayerExtractV1-4",
+      "Layers2Drawings",
+      "LayoutFieldV1-0",
+      "LDOrderV1-2",
+      "LengthAreaFieldV1-4",
+      "LengthFieldToAttributeV1-0",
+      "LoadLinetypesV1-3",
+      "Lotto",
+      "MacAttV3-1",
+      "MaskV1-5",
+      "Mastermind",
+      "MatchAttribs",
+      "MatchFieldFormattingV1-2",
+      "MatchTextProps",
+      "MidLenV1-1",
+      "MinimumEnclosingCircleV1-1",
+      "MLines2PLinesV1-1",
+      "MLJustV1-0",
+      "MPlineV1-1",
+      "ms2psV1-0",
+      "MTEditReactorV1-1",
+      "NestedMoveV1-2",
+      "NumIncV4-0",
+      "NumIncV4-0",
+      "ObjectAlignV1-7",
+      "ObjectBreakV1-0",
+      "ObjectDBXWrapperV1-2",
+      "ObjectLock",
+      "OffsetSectionV1-1",
+      "OutlineObjectsV1-1",
+      "Password",
+      "PolyInfoV1-3",
+      "PtManagerV2-4",
+      "QuickFieldV1-3",
+      "QuickMirror",
+      "RenumberLayoutsV1-2",
+      "ResetXRefLayersV1-2",
+      "ScriptWriterV1-2",
+      "SegmentCurveV1-1",
+      "ShowHatchTextV1-0",
+      "StarV1-2",
+      "StealV1-8",
+      "SumAttributeValuesV1-1",
+      "TabSortV2-2",
+      "TCountV1-1",
+      "Text2MTextV2-0",
+      "TextCalcV1-0",
+      "TotalLengthPolylineV1-0",
+      "UpdateTitleblockV1-9",
+      "VPOutlineV1-3"
+    ],
+    "SelectionSets": [
+      "2DProjectionV1-0",
+      "AddObjectsToBlockV1-2",
+      "AdvancedPolyOutlineV1-1",
+      "AlignTextV1-4",
+      "Areas2AttributeV1-2",
+      "Areas2FieldV1-3",
+      "AssociativeCenterlineV1-0",
+      "AssociativeTextboxV1-2",
+      "AttModSuiteV1-1",
+      "AttributeColour",
+      "AutoBlockBreakV1-9",
+      "AutoLabelAttributesV1-4",
+      "BatchAttributeEditorV1-5",
+      "BatchAttributeEditorV1-5",
+      "BlockCountV1-5",
+      "BoundingBoxReactorV1-0",
+      "BoxTextV1-3",
+      "BurstUpgradedV1-7",
+      "ChainLengthV1-0",
+      "ChainSelV1-1",
+      "CircularWipeoutV1-2",
+      "CircularWipeoutV1-2",
+      "ClockV1-1",
+      "Copy2DrawingsV1-3",
+      "Copy2LayoutsV1-1",
+      "Copy2XRefV1-2",
+      "CopySwapTextV1-8",
+      "CountAttributeValuesV1-1",
+      "CountV1-5",
+      "DBCountV1-1",
+      "DimensionOverlapV1-3",
+      "DInfoV1-5",
+      "DoubleExtendV1-0",
+      "DynamicTextAlignV1-6",
+      "DynOffV2-1",
+      "Ellipse2ArcV1-1",
+      "FieldArithmeticV1-2",
+      "IncArrayV1-9",
+      "IntLenV1-4",
+      "JustifyBasePointV1-1",
+      "LDOrderV1-2",
+      "LengthAreaFieldV1-4",
+      "LengthFieldToAttributeV1-0",
+      "MacAttV3-1",
+      "MaskV1-5",
+      "MatchTextProps",
+      "MidLenV1-1",
+      "MinimumEnclosingCircleV1-1",
+      "MLines2PLinesV1-1",
+      "MLJustV1-0",
+      "ms2psV1-0",
+      "NumIncV4-0",
+      "NumIncV4-0",
+      "ObjectAlignV1-7",
+      "ObjectDBXWrapperV1-2",
+      "ObjectLock",
+      "OutlineObjectsV1-1",
+      "PolylineTaperV1-1",
+      "PolyOutlineV1-1",
+      "PrefixSuffixLayerV1-1",
+      "PtManagerV2-4",
+      "QuickMirror",
+      "ResetXRefLayersV1-2",
+      "SegmentCurveV1-1",
+      "SelectionCounterV1-4",
+      "ShowHatchTextV1-0",
+      "StrikethroughV1-2",
+      "SumAttributeValuesV1-1",
+      "TCountV1-1",
+      "Text2MTextV2-0",
+      "Text2WordsV1-1",
+      "UpdateTitleblockV1-9",
+      "VPOutlineV1-3"
+    ],
+    "FileIO": [
+      "ACADDOCCreatorV1-1",
+      "AlignTextToCurveV1-5",
+      "AreaLabelV1-9",
+      "Areas2AttributeV1-2",
+      "AttModSuiteV1-1",
+      "AttributeColour",
+      "AutoBlockBreakV1-9",
+      "Autoloader",
+      "BatchAttributeEditorV1-5",
+      "BatchAttributeEditorV1-5",
+      "BFindV2-0",
+      "BlockCountV1-5",
+      "BoundingBoxReactorV1-0",
+      "BurstUpgradedV1-7",
+      "ChainSelV1-1",
+      "ChangeBlockBasePointV1-5",
+      "CircleTangentsV1-0",
+      "Copy2DrawingsV1-3",
+      "Copy2LayoutsV1-1",
+      "CopyFieldV1-1",
+      "CopySwapTextV1-8",
+      "CountAttributeValuesV1-1",
+      "CountV1-5",
+      "DBCountV1-1",
+      "DeleteBlocksV1-1",
+      "DrawingVersionV1-1",
+      "DTCurveV2-9",
+      "DynAttWidthV1-2",
+      "DynOffV2-1",
+      "EvalOnceOnStartup",
+      "FieldArithmeticV1-2",
+      "FilteredListBoxV1-1",
+      "FormatDCLV1-0",
+      "GetFilesV1-6",
+      "GetSyntax",
+      "ImportBlockV1-2",
+      "IteratedFunctionSystemsV1-2",
+      "JustifyBasePointV1-1",
+      "LayerExtractV1-4",
+      "LDOrderV1-2",
+      "LengthAreaFieldV1-4",
+      "LengthFieldToAttributeV1-0",
+      "LISPLogV1-0",
+      "LISPStyler",
+      "ListBoxV1-2",
+      "LoadLinetypesV1-3",
+      "MacAttV3-1",
+      "MaskV1-5",
+      "Mastermind",
+      "MatchFieldFormattingV1-2",
+      "MidLenV1-1",
+      "NestedMoveV1-2",
+      "NumIncV4-0",
+      "NumIncV4-0",
+      "ObjectLock",
+      "Password",
+      "PolyInfoV1-3",
+      "PtManagerV2-4",
+      "ReadCSV-V1-3",
+      "RenumberLayoutsV1-2",
+      "ResetXRefLayersV1-2",
+      "ScriptWriterV1-2",
+      "StealV1-8",
+      "SumAttributeValuesV1-1",
+      "TabSortV2-2",
+      "TextCalcV1-0",
+      "TipV1-1",
+      "TotalLengthPolylineV1-0",
+      "UpdateTitleblockV1-9",
+      "WriteCSV-V1-1"
+    ],
+    "DCL": [
+      "AlignTextToCurveV1-5",
+      "Areas2AttributeV1-2",
+      "AttModSuiteV1-1",
+      "AttributeColour",
+      "BatchAttributeEditorV1-5",
+      "BatchAttributeEditorV1-5",
+      "BFindV2-0",
+      "Copy2DrawingsV1-3",
+      "Copy2LayoutsV1-1",
+      "CopySwapTextV1-8",
+      "CountAttributeValuesV1-1",
+      "CountV1-5",
+      "DeleteBlocksV1-1",
+      "DTCurveV2-9",
+      "DynOffV2-1",
+      "FieldArithmeticV1-2",
+      "FilteredListBoxV1-1",
+      "GetFilesV1-6",
+      "ImportBlockV1-2",
+      "IteratedFunctionSystemsV1-2",
+      "JustifyBasePointV1-1",
+      "LayerExtractV1-4",
+      "LDOrderV1-2",
+      "LengthAreaFieldV1-4",
+      "LengthFieldToAttributeV1-0",
+      "ListBoxV1-2",
+      "Logistic",
+      "MacAttV3-1",
+      "MaskV1-5",
+      "Mastermind",
+      "NumIncV4-0",
+      "NumIncV4-0",
+      "Password",
+      "PtManagerV2-4",
+      "RenumberLayoutsV1-2",
+      "ResetXRefLayersV1-2",
+      "ScriptWriterV1-2",
+      "StealV1-8",
+      "SumAttributeValuesV1-1",
+      "TabSortV2-2",
+      "TextCalcV1-0",
+      "TipV1-1"
+    ],
+    "VLR": [
+      "AssociativeCenterlineV1-0",
+      "AssociativeTextboxV1-2",
+      "AutoLabelAttributesV1-4",
+      "BoundingBoxReactorV1-0",
+      "ClockV1-1",
+      "DTCurveV2-9",
+      "LayerDirectorV2-1",
+      "LayerDirectorV2-1",
+      "LISPLogV1-0",
+      "MTEditReactorV1-1",
+      "ObjectLock",
+      "SelectionCounterV1-4"
+    ],
+    "ObjectDBX": [
+      "BFindV2-0",
+      "Copy2DrawingsV1-3",
+      "Copy2XRefV1-2",
+      "CopyBlockDefinitionV1-1",
+      "CopyRenameBlockV1-5",
+      "DeleteBlocksV1-1",
+      "ImportBlockV1-2",
+      "LayerExtractV1-4",
+      "MacAttV3-1",
+      "NestedMoveV1-2",
+      "ObjectDBXWrapperV1-2",
+      "ResetXRefLayersV1-2",
+      "StealV1-8"
+    ]
+  },
+  "complexity_levels": {
+    "intermediate": [
+      "2DProjectionV1-0",
+      "5PointEllipseV1-1",
+      "ACADDOCCreatorV1-1",
+      "AddLWPolylineVertexV1-1",
+      "AddObjectsToBlockV1-2",
+      "AlignTextV1-4",
+      "AreaLabelV1-9",
+      "Areas2FieldV1-3",
+      "ArrowArcV1-2",
+      "AttributeColour",
+      "AttributeFunctions",
+      "Autoloader",
+      "BlockCountV1-5",
+      "BoxTextV1-3",
+      "BurstUpgradedV1-7",
+      "ChainLengthV1-0",
+      "ChainSelV1-1",
+      "ChangeBlockBasePointV1-5",
+      "CircleBreakV1-3",
+      "CircularWipeoutV1-2",
+      "CircularWipeoutV1-2",
+      "CMeasure",
+      "Copy2LayoutsV1-1",
+      "CopyFieldV1-1",
+      "CurveTextV1-4",
+      "DBCountV1-1",
+      "DimensionOverlapV1-3",
+      "DoubleExtendV1-0",
+      "DoubleOffsetV1-1",
+      "DrawGridV1-1",
+      "DrawOrderV1-2",
+      "DynamicTextAlignV1-6",
+      "Ellipse2ArcV1-1",
+      "EntityToPointListV1-2",
+      "EvalOnceOnStartup",
+      "ExtractNestedBlockV1-2",
+      "FieldFormatV1-1",
+      "FieldObjectsV1-1",
+      "FilteredListBoxV1-1",
+      "FormatDCLV1-0",
+      "GetTrueContent",
+      "GrSnapV1-0",
+      "GrTextV1-1",
+      "IncArrayV1-9",
+      "IntLenV1-4",
+      "IteratedFunctionSystemsV1-2",
+      "Koch",
+      "LabelV1-1",
+      "Layers2Drawings",
+      "LayoutFieldV1-0",
+      "ListBoxV1-2",
+      "LoadLinetypesV1-3",
+      "Logistic",
+      "Lotto",
+      "MatchAttribs",
+      "MatchFieldFormattingV1-2",
+      "MatchTextProps",
+      "MD5-V1-1",
+      "MidLenV1-1",
+      "MinEncCircle",
+      "MinimumEnclosingCircleV1-1",
+      "MLJustV1-0",
+      "ms2psV1-0",
+      "ObjectAlignV1-7",
+      "ObjectBreakV1-0",
+      "OffsetSectionV1-1",
+      "OutlineObjectsV1-1",
+      "Password",
+      "PolyInfoV1-3",
+      "PolylineTaperV1-1",
+      "PolyOutlineV1-1",
+      "QuickFieldV1-3",
+      "QuickMirror",
+      "RenumberLayoutsV1-2",
+      "SegmentCurveV1-1",
+      "ShowHatchTextV1-0",
+      "SierpinskiV1-0",
+      "StarV1-2",
+      "StrikethroughV1-2",
+      "TCountV1-1",
+      "Text2MTextV2-0",
+      "Text2WordsV1-1",
+      "TipV1-1",
+      "UpdateTitleblockV1-9",
+      "VPOutlineV1-3",
+      "XLineV1-0"
+    ],
+    "advanced": [
+      "AdvancedPolyOutlineV1-1",
+      "AlignTextToCurveV1-5",
+      "Areas2AttributeV1-2",
+      "AssociativeCenterlineV1-0",
+      "AssociativeTextboxV1-2",
+      "AttModSuiteV1-1",
+      "AutoBlockBreakV1-9",
+      "AutoLabelAttributesV1-4",
+      "BoundingBoxReactorV1-0",
+      "CircleTangentsV1-0",
+      "ClockV1-1",
+      "Copy2XRefV1-2",
+      "CopyBlockDefinitionV1-1",
+      "CopyRenameBlockV1-5",
+      "CopySwapTextV1-8",
+      "CountAttributeValuesV1-1",
+      "CountV1-5",
+      "DInfoV1-5",
+      "DynAttWidthV1-2",
+      "DynOffV2-1",
+      "FieldArithmeticV1-2",
+      "GetFilesV1-6",
+      "ImportBlockV1-2",
+      "JustifyBasePointV1-1",
+      "LayerDirectorV2-1",
+      "LayerDirectorV2-1",
+      "LDOrderV1-2",
+      "LengthAreaFieldV1-4",
+      "LengthFieldToAttributeV1-0",
+      "LISPLogV1-0",
+      "LISPStyler",
+      "MaskV1-5",
+      "Mastermind",
+      "MTEditReactorV1-1",
+      "NestedMoveV1-2",
+      "ObjectDBXWrapperV1-2",
+      "ObjectLock",
+      "PtManagerV2-4",
+      "ScriptWriterV1-2",
+      "SelectionCounterV1-4",
+      "SumAttributeValuesV1-1",
+      "TextCalcV1-0",
+      "TotalLengthPolylineV1-0"
+    ],
+    "expert": [
+      "BatchAttributeEditorV1-5",
+      "BatchAttributeEditorV1-5",
+      "BFindV2-0",
+      "Copy2DrawingsV1-3",
+      "DeleteBlocksV1-1",
+      "DTCurveV2-9",
+      "LayerExtractV1-4",
+      "MacAttV3-1",
+      "NumIncV4-0",
+      "NumIncV4-0",
+      "ResetXRefLayersV1-2",
+      "StealV1-8",
+      "TabSortV2-2"
+    ],
+    "beginner": [
+      "BrowseForFolderV1-3",
+      "CenterlineV1-2",
+      "ConvexHull",
+      "ConvexHull",
+      "CursorRotateV1-0",
+      "DrawingVersionV1-1",
+      "DumpObjectV1-2",
+      "DynamicAngleBisection",
+      "ElevationMarkerV1-1",
+      "elist",
+      "FieldCodeV1-1",
+      "GetSyntax",
+      "IsoPolyV1-0",
+      "ListBoxFunctionsV1-1",
+      "ListTileDependencyV1-1",
+      "MLines2PLinesV1-1",
+      "MPlineV1-1",
+      "PrefixSuffixLayerV1-1",
+      "PrintListV1-0",
+      "ReadCSV-V1-3",
+      "WriteCSV-V1-1"
+    ]
+  },
+  "scripts": [
+    {
+      "commands": [
+        "2dpro"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program provides the user with a means of projecting a         ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "2dpro"
+      },
+      "filename": "2DProjectionV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.494712",
+      "id": "2DProjectionV1-0",
+      "line_count": 460,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "2DProjection V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns a list of: ((10 <WCS Center>) (11 <WCS Major Axis Endpoint from Center>) (40 . <Minor/Major Ratio>))",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "5PointEllipseV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.496864",
+      "id": "5PointEllipseV1-1",
+      "line_count": 136,
+      "primary_category": "MATHEMATICAL",
+      "schema_version": "1.0",
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [],
+      "title": "5PointEllipse V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "mathematical"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "acaddoc"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Creates, or appends to, an ACADDOC.lsp file containing    ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "acaddoc"
+      },
+      "filename": "ACADDOCCreatorV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.499033",
+      "id": "ACADDOCCreatorV1-1",
+      "line_count": 143,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "ACADDOCCreator V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "apv"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "apv"
+      },
+      "filename": "AddLWPolylineVertexV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.500804",
+      "id": "AddLWPolylineVertexV1-1",
+      "line_count": 149,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "AddLWPolyline Vertex V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "addtoblock"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to add a selection of objects to the  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "addtoblock"
+      },
+      "filename": "AddObjectsToBlockV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.502910",
+      "id": "AddObjectsToBlockV1-2",
+      "line_count": 257,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "AddObjectsToBlock V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "polyout",
+        "mpolyout"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Example calling functions (these may be customised to suit your requirements):",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "polyout"
+      },
+      "filename": "AdvancedPolyOutlineV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.505124",
+      "id": "AdvancedPolyOutlineV1-1",
+      "line_count": 663,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "AdvancedPolyOutline V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "atc"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Program Overview                                                    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "atc"
+      },
+      "filename": "AlignTextToCurveV1-5.lsp",
+      "generated_date": "2025-07-29T11:39:39.507801",
+      "id": "AlignTextToCurveV1-5",
+      "line_count": 986,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "interactive",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "AlignTextToCurve V1.5",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "5",
+        "version_string": "V1-5"
+      }
+    },
+    {
+      "commands": [
+        "at"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to reposition a selection of          ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "at"
+      },
+      "filename": "AlignTextV1-4.lsp",
+      "generated_date": "2025-07-29T11:39:39.509990",
+      "id": "AlignTextV1-4",
+      "line_count": 111,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "AlignText V1.4",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "4",
+        "version_string": "V1-4"
+      }
+    },
+    {
+      "commands": [
+        "AF",
+        "AT"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Allows the user to label picked areas or objects and      ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "AF"
+      },
+      "filename": "AreaLabelV1-9.lsp",
+      "generated_date": "2025-07-29T11:39:39.512059",
+      "id": "AreaLabelV1-9",
+      "line_count": 497,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "AreaLabel V1.9",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "9",
+        "version_string": "V1-9"
+      }
+    },
+    {
+      "commands": [
+        "a2a"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows a user to populate a selected attribute with    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "a2a"
+      },
+      "filename": "Areas2AttributeV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.513908",
+      "id": "Areas2AttributeV1-2",
+      "line_count": 246,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects",
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "Areas2Attribute V1.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "a2f"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows a user to create an MText object containing a   ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "a2f"
+      },
+      "filename": "Areas2FieldV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.515822",
+      "id": "Areas2FieldV1-3",
+      "line_count": 154,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "Areas2Field V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [
+        "aarc",
+        "aarcsettings"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to construct an arc with arrowheads   ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "aarc"
+      },
+      "filename": "ArrowArcV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.517717",
+      "id": "ArrowArcV1-2",
+      "line_count": 175,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [],
+      "title": "ArrowArc V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "clremove",
+        "cl"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "clremove"
+      },
+      "filename": "AssociativeCenterlineV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.524772",
+      "id": "AssociativeCenterlineV1-0",
+      "line_count": 218,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "reactive",
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "VLR",
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "AssociativeCenterline V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "tbox",
+        "rtbox"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Program Overview                                                    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "tbox"
+      },
+      "filename": "AssociativeTextboxV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.527628",
+      "id": "AssociativeTextboxV1-2",
+      "line_count": 725,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "reactive",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "VLR",
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "AssociativeTextbox V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "edAtt",
+        "mvAtt",
+        "roAtt"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "edAtt"
+      },
+      "filename": "AttModSuiteV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.529780",
+      "id": "AttModSuiteV1-1",
+      "line_count": 614,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "AttModSuite V1.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "AttCol"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Prompts for a selection of attributed blocks and displays ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "AttCol"
+      },
+      "filename": "AttributeColour.lsp",
+      "generated_date": "2025-07-29T11:39:39.531813",
+      "id": "AttributeColour",
+      "line_count": 108,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects",
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "AttributeColour",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns the value held by the specified tag within the supplied block, if present.",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "AttributeFunctions.lsp",
+      "generated_date": "2025-07-29T11:39:39.533619",
+      "id": "AttributeFunctions",
+      "line_count": 185,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "AttributeFunctions",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "abbs",
+        "abbe",
+        "abb"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to insert a block at a specified      ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "abbs"
+      },
+      "filename": "AutoBlockBreakV1-9.lsp",
+      "generated_date": "2025-07-29T11:39:39.535711",
+      "id": "AutoBlockBreakV1-9",
+      "line_count": 640,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "AutoBlockBreak V1.9",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "9",
+        "version_string": "V1-9"
+      }
+    },
+    {
+      "commands": [
+        "autolabelon",
+        "autolabeloff"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program will automatically populate a specific attribute tag   ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "autolabelon"
+      },
+      "filename": "AutoLabelAttributesV1-4.lsp",
+      "generated_date": "2025-07-29T11:39:39.537885",
+      "id": "AutoLabelAttributesV1-4",
+      "line_count": 475,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "reactive",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "VLR",
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "AutoLabelAttributes V1.4",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "4",
+        "version_string": "V1-4"
+      }
+    },
+    {
+      "commands": [
+        "AutoLoader"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "AutoLoader"
+      },
+      "filename": "Autoloader.lsp",
+      "generated_date": "2025-07-29T11:39:39.540058",
+      "id": "Autoloader",
+      "line_count": 137,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "Autoloader",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "id": "BatchAttributeEditorV1-5",
+      "filename": "BatchAttributeEditorV1-5.lsp",
+      "title": "BatchAttributeEditor V1.5",
+      "description": "This program allows the user to modify the values of multiple attributes",
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "commands": [
+        "batte"
+      ],
+      "tags": [
+        "attribute",
+        "interactive",
+        "automation",
+        "objects",
+        "block"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "ui": "DCL",
+      "complexity": "expert",
+      "line_count": 2935,
+      "version_info": {
+        "major": "1",
+        "minor": "5",
+        "version_string": "V1-5"
+      },
+      "entry_points": {
+        "primary": "batte",
+        "complexity": "expert"
+      },
+      "dependencies": {
+        "requires": [],
+        "integrates_with": [],
+        "conflicts_with": []
+      },
+      "usage_context": {
+        "typical_workflows": [
+          "block_attribute"
+        ],
+        "automation_level": "fully_automatic"
+      },
+      "generated_date": "2025-07-29T11:29:34.646720",
+      "schema_version": "1.0"
+    },
+    {
+      "commands": [
+        "batte"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Program Description                              ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "batte"
+      },
+      "filename": "BatchAttributeEditorV1-5.lsp",
+      "generated_date": "2025-07-29T11:39:39.549895",
+      "id": "BatchAttributeEditorV1-5",
+      "line_count": 2786,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects",
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "BatchAttributeEditor V1.5",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "5",
+        "version_string": "V1-5"
+      }
+    },
+    {
+      "commands": [
+        "BFind"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This could be accomplished programmatically, but has been omitted for better ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "BFind"
+      },
+      "filename": "BFindV2-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.543762",
+      "id": "BFindV2-0",
+      "line_count": 1914,
+      "primary_category": "SELECTION_ENTITY",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive",
+        "automation"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "BFind V2.0",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "selection_entity"
+        ]
+      },
+      "version_info": {
+        "major": "2",
+        "minor": "0",
+        "version_string": "V2-0"
+      }
+    },
+    {
+      "commands": [
+        "BlockCount"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program will generate a report detailing the individual        ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "BlockCount"
+      },
+      "filename": "BlockCountV1-5.lsp",
+      "generated_date": "2025-07-29T11:39:39.552215",
+      "id": "BlockCountV1-5",
+      "line_count": 345,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "BlockCount V1.5",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "5",
+        "version_string": "V1-5"
+      }
+    },
+    {
+      "commands": [
+        "bbra",
+        "bbrn",
+        "bbrr"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Allows the user to create a new reactor owner group for   ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "bbra"
+      },
+      "filename": "BoundingBoxReactorV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.554294",
+      "id": "BoundingBoxReactorV1-0",
+      "line_count": 479,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "reactive"
+      ],
+      "technologies": [
+        "VLR",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "BoundingBoxReactor V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "bt"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program performs in much the same way as the Express Tools'    ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "bt"
+      },
+      "filename": "BoxTextV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.556607",
+      "id": "BoxTextV1-3",
+      "line_count": 229,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "BoxText V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Displays a dialog prompting the user to select a folder.",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": ""
+      },
+      "filename": "BrowseForFolderV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.558886",
+      "id": "BrowseForFolderV1-3",
+      "line_count": 33,
+      "primary_category": "USER_INTERFACE",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "BrowseForFolder V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "user_interface"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [
+        "pburst",
+        "nburst"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program operates in much the same way as the familiar          ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "pburst"
+      },
+      "filename": "BurstUpgradedV1-7.lsp",
+      "generated_date": "2025-07-29T11:39:39.560993",
+      "id": "BurstUpgradedV1-7",
+      "line_count": 310,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "BurstUpgraded V1.7",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "7",
+        "version_string": "V1-7"
+      }
+    },
+    {
+      "commands": [
+        "cline"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Creates a pair of centerlines for Arcs, Circles, Ellipses ;;",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "cline"
+      },
+      "filename": "CenterlineV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.564941",
+      "id": "CenterlineV1-2",
+      "line_count": 51,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [],
+      "title": "Centerline V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "chainlen"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to calculate the total object length  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "chainlen"
+      },
+      "filename": "ChainLengthV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.567811",
+      "id": "ChainLengthV1-0",
+      "line_count": 200,
+      "primary_category": "SELECTION_ENTITY",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "ChainLength V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "selection_entity"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "cs"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program prompts the user to select an object and generates a   ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "cs"
+      },
+      "filename": "ChainSelV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.569689",
+      "id": "ChainSelV1-1",
+      "line_count": 150,
+      "primary_category": "SELECTION_ENTITY",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "ChainSel V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "selection_entity"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "cbp",
+        "cbpr"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to change the base point for all       ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "cbp"
+      },
+      "filename": "ChangeBlockBasePointV1-5.lsp",
+      "generated_date": "2025-07-29T11:39:39.571586",
+      "id": "ChangeBlockBasePointV1-5",
+      "line_count": 268,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "ChangeBlockBasePoint V1.5",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "5",
+        "version_string": "V1-5"
+      }
+    },
+    {
+      "commands": [
+        "cbrk"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to break a circle or ellipse into     ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "cbrk"
+      },
+      "filename": "CircleBreakV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.574165",
+      "id": "CircleBreakV1-3",
+      "line_count": 181,
+      "primary_category": "MATHEMATICAL",
+      "schema_version": "1.0",
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "CircleBreak V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "mathematical"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [
+        "ctan"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to dynamically construct two circles   ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "ctan"
+      },
+      "filename": "CircleTangentsV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.576651",
+      "id": "CircleTangentsV1-0",
+      "line_count": 524,
+      "primary_category": "MATHEMATICAL",
+      "schema_version": "1.0",
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "CircleTangents V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "mathematical"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "id": "CircularWipeoutV1-2",
+      "filename": "CircularWipeoutV1-2.lsp",
+      "title": "CircularWipeout V1.2",
+      "description": "Enables the user to create a circular wipeout with a",
+      "primary_category": "SPECIALIZED",
+      "commands": [
+        "cwipe",
+        "c2wipe"
+      ],
+      "tags": [],
+      "technologies": [
+        "SelectionSets"
+      ],
+      "ui": "CommandLine",
+      "complexity": "intermediate",
+      "line_count": 115,
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      },
+      "entry_points": {
+        "primary": "cwipe",
+        "complexity": "intermediate"
+      },
+      "dependencies": {
+        "requires": [],
+        "integrates_with": [],
+        "conflicts_with": []
+      },
+      "usage_context": {
+        "typical_workflows": [
+          "specialized"
+        ],
+        "automation_level": "semi_automatic"
+      },
+      "generated_date": "2025-07-29T11:29:34.653284",
+      "schema_version": "1.0"
+    },
+    {
+      "commands": [
+        "c2wipe",
+        "cwipe"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Enables the user to create a circular wipeout with a      ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "c2wipe"
+      },
+      "filename": "CircularWipeoutV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.578798",
+      "id": "CircularWipeoutV1-2",
+      "line_count": 108,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "SelectionSets"
+      ],
+      "title": "CircularWipeout V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "clock",
+        "runclock"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "clock"
+      },
+      "filename": "ClockV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.580976",
+      "id": "ClockV1-1",
+      "line_count": 408,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "reactive"
+      ],
+      "technologies": [
+        "VLR",
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "Clock V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "cmeasure"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "cmeasure"
+      },
+      "filename": "CMeasure.lsp",
+      "generated_date": "2025-07-29T11:39:39.563267",
+      "id": "CMeasure",
+      "line_count": 115,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "CMeasure",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "id": "ConvexHull",
+      "filename": "ConvexHull.lsp",
+      "title": "ConvexHull",
+      "description": "Implements the Graham Scan Algorithm to return the Convex Hull of a list of points.",
+      "primary_category": "MATHEMATICAL",
+      "commands": [],
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [],
+      "ui": "CommandLine",
+      "complexity": "beginner",
+      "line_count": 48,
+      "version_info": {
+        "version_string": "1.0"
+      },
+      "entry_points": {
+        "primary": "",
+        "complexity": "beginner"
+      },
+      "dependencies": {
+        "requires": [],
+        "integrates_with": [],
+        "conflicts_with": []
+      },
+      "usage_context": {
+        "typical_workflows": [
+          "mathematical"
+        ],
+        "automation_level": "semi_automatic"
+      },
+      "generated_date": "2025-07-29T11:29:34.643143",
+      "schema_version": "1.0"
+    },
+    {
+      "commands": [],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Implements the Graham Scan Algorithm to return the Convex Hull of a list of points.",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": ""
+      },
+      "filename": "ConvexHull.lsp",
+      "generated_date": "2025-07-29T11:39:39.582735",
+      "id": "ConvexHull",
+      "line_count": 45,
+      "primary_category": "MATHEMATICAL",
+      "schema_version": "1.0",
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [],
+      "title": "ConvexHull",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "mathematical"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "c2dwg"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to copy a selection of objects to a   ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "c2dwg"
+      },
+      "filename": "Copy2DrawingsV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.584654",
+      "id": "Copy2DrawingsV1-3",
+      "line_count": 642,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive",
+        "automation"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "Copy2Drawings V1.3",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [
+        "c2al",
+        "c2l"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables a user to quickly copy a selection of objects  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "c2al"
+      },
+      "filename": "Copy2LayoutsV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.587670",
+      "id": "Copy2LayoutsV1-1",
+      "line_count": 165,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "Copy2Layouts V1.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "c2x"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to copy a selection of objects to a   ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "c2x"
+      },
+      "filename": "Copy2XRefV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.589824",
+      "id": "Copy2XRefV1-2",
+      "line_count": 229,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [
+        "automation"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "Copy2XRef V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns the copied VLA Block Definition Object, else nil",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": ""
+      },
+      "filename": "CopyBlockDefinitionV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.592318",
+      "id": "CopyBlockDefinitionV1-1",
+      "line_count": 47,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "automation",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "ActiveX"
+      ],
+      "title": "CopyBlockDefinition V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "copyfield"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to copy a field expression from a     ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "copyfield"
+      },
+      "filename": "CopyFieldV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.594547",
+      "id": "CopyFieldV1-1",
+      "line_count": 189,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "CopyField V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "cb",
+        "rb"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows a user to copy and/or rename a single block     ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "cb"
+      },
+      "filename": "CopyRenameBlockV1-5.lsp",
+      "generated_date": "2025-07-29T11:39:39.597125",
+      "id": "CopyRenameBlockV1-5",
+      "line_count": 163,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "automation",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "ActiveX"
+      ],
+      "title": "CopyRenameBlock V1.5",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "5",
+        "version_string": "V1-5"
+      }
+    },
+    {
+      "commands": [
+        "stx",
+        "ctx"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables a user to either copy the text content from    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "stx"
+      },
+      "filename": "CopySwapTextV1-8.lsp",
+      "generated_date": "2025-07-29T11:39:39.599243",
+      "id": "CopySwapTextV1-8",
+      "line_count": 602,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "interactive",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "CopySwapText V1.8",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "8",
+        "version_string": "V1-8"
+      }
+    },
+    {
+      "commands": [
+        "cav"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to count the number of occurrences    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "cav"
+      },
+      "filename": "CountAttributeValuesV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.601273",
+      "id": "CountAttributeValuesV1-1",
+      "line_count": 395,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects",
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "CountAttribute Values V1.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "blkcount",
+        "blkcountsettings"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to record the quantities of a         ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "blkcount"
+      },
+      "filename": "CountV1-5.lsp",
+      "generated_date": "2025-07-29T11:39:39.603653",
+      "id": "CountV1-5",
+      "line_count": 816,
+      "primary_category": "SELECTION_ENTITY",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "Count V1.5",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "selection_entity"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "5",
+        "version_string": "V1-5"
+      }
+    },
+    {
+      "commands": [
+        "cr"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to rotate the AutoCAD crosshairs       ;;",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "cr"
+      },
+      "filename": "CursorRotateV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.606891",
+      "id": "CursorRotateV1-0",
+      "line_count": 69,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "CursorRotate V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "CurveText"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "CurveText"
+      },
+      "filename": "CurveTextV1-4.lsp",
+      "generated_date": "2025-07-29T11:39:39.609172",
+      "id": "CurveTextV1-4",
+      "line_count": 260,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "CurveText V1.4",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "4",
+        "version_string": "V1-4"
+      }
+    },
+    {
+      "commands": [
+        "dbcount"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to count all or a selection of        ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "dbcount"
+      },
+      "filename": "DBCountV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.611243",
+      "id": "DBCountV1-1",
+      "line_count": 243,
+      "primary_category": "SELECTION_ENTITY",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "DBCount V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "selection_entity"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "delblocks"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to quickly remove multiple blocks     ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "delblocks"
+      },
+      "filename": "DeleteBlocksV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.618118",
+      "id": "DeleteBlocksV1-1",
+      "line_count": 256,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "block",
+        "automation",
+        "objects",
+        "attribute",
+        "interactive"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "DeleteBlocks V1.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "dimoverlap"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program will automatically detect overlapping dimensions in    ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "dimoverlap"
+      },
+      "filename": "DimensionOverlapV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.620161",
+      "id": "DimensionOverlapV1-3",
+      "line_count": 278,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "DimensionOverlap V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [
+        "DInfo"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "-----------------------=={  Dynamic Information Tool  }==----------------------;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "DInfo"
+      },
+      "filename": "DInfoV1-5.lsp",
+      "generated_date": "2025-07-29T11:39:39.613367",
+      "id": "DInfoV1-5",
+      "line_count": 629,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "DInfo V1.5",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "5",
+        "version_string": "V1-5"
+      }
+    },
+    {
+      "commands": [
+        "dex"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to extend both ends of all lines,      ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "dex"
+      },
+      "filename": "DoubleExtendV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.622360",
+      "id": "DoubleExtendV1-0",
+      "line_count": 329,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "DoubleExtend V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "DoubleOffset",
+        "DOff"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "DoubleOffset"
+      },
+      "filename": "DoubleOffsetV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.624821",
+      "id": "DoubleOffsetV1-1",
+      "line_count": 203,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "DoubleOffset V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "dgrid",
+        "dgridd"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Dynamically generates a grid with a specified number of   ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "dgrid"
+      },
+      "filename": "DrawGridV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.627817",
+      "id": "DrawGridV1-1",
+      "line_count": 221,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [],
+      "title": "DrawGrid V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns the version of the supplied filename (dwg/dws/dwt/dxf)",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": ""
+      },
+      "filename": "DrawingVersionV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.631161",
+      "id": "DrawingVersionV1-1",
+      "line_count": 49,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "FileIO"
+      ],
+      "title": "Drawing Version V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns: T if successful, else nil",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "DrawOrderV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.629559",
+      "id": "DrawOrderV1-2",
+      "line_count": 114,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "DrawOrder V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "DTCurve",
+        "DTRemove"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "The Program will prompt the user to either Select existing text to align,    ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "DTCurve"
+      },
+      "filename": "DTCurveV2-9.lsp",
+      "generated_date": "2025-07-29T11:39:39.616042",
+      "id": "DTCurveV2-9",
+      "line_count": 1074,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "text",
+        "reactive",
+        "labeling",
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "VLR",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "DTCurve V2.9",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "2",
+        "minor": "9",
+        "version_string": "V2-9"
+      }
+    },
+    {
+      "commands": [
+        "dump",
+        "dumpn"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "dump"
+      },
+      "filename": "DumpObjectV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.632792",
+      "id": "DumpObjectV1-2",
+      "line_count": 24,
+      "primary_category": "IMPORT_EXPORT",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "DumpObject V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "import_export"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "bisect"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Allows the user to dynamically bisect the angle formed by ;;",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "bisect"
+      },
+      "filename": "DynamicAngleBisection.lsp",
+      "generated_date": "2025-07-29T11:39:39.639436",
+      "id": "DynamicAngleBisection",
+      "line_count": 83,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "DynamicAngleBisection",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "TxAlign"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Allows the user to dynamically align text to any angle. User is prompted to  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "TxAlign"
+      },
+      "filename": "DynamicTextAlignV1-6.lsp",
+      "generated_date": "2025-07-29T11:39:39.642211",
+      "id": "DynamicTextAlignV1-6",
+      "line_count": 480,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "DynamicTextAlign V1.6",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "6",
+        "version_string": "V1-6"
+      }
+    },
+    {
+      "commands": [
+        "attw"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to dynamically alter the width        ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "attw"
+      },
+      "filename": "DynAttWidthV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.634944",
+      "id": "DynAttWidthV1-2",
+      "line_count": 531,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "DynAttWidth V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "DynOff"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Allows the user to dynamically offset multiple objects simultaneously, by    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "DynOff"
+      },
+      "filename": "DynOffV2-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.637332",
+      "id": "DynOffV2-1",
+      "line_count": 829,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "DynOff V2.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "2",
+        "minor": "1",
+        "version_string": "V2-1"
+      }
+    },
+    {
+      "commands": [
+        "em"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program continuously prompts the user to specify a point and   ;;",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "em"
+      },
+      "filename": "ElevationMarkerV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.645207",
+      "id": "ElevationMarkerV1-1",
+      "line_count": 67,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [],
+      "title": "ElevationMarker V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "ee",
+        "eex"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Displays the DXF Information for an entity, a variation   ;;",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "ee"
+      },
+      "filename": "elist.lsp",
+      "generated_date": "2025-07-29T11:39:39.848245",
+      "id": "elist",
+      "line_count": 61,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [],
+      "title": "elist",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "e2a"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program will allow the user to convert a selection of circular ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "e2a"
+      },
+      "filename": "Ellipse2ArcV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.646898",
+      "id": "Ellipse2ArcV1-1",
+      "line_count": 107,
+      "primary_category": "MATHEMATICAL",
+      "schema_version": "1.0",
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [
+        "SelectionSets"
+      ],
+      "title": "Ellipse2Arc V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "mathematical"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns a list of WCS points describing or approximating the supplied entity, else nil if the entity is not supported.",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "EntityToPointListV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.648681",
+      "id": "EntityToPointListV1-2",
+      "line_count": 128,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "EntityToPointList V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Function returns T if expressions are written successfully.",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "EvalOnceOnStartup.lsp",
+      "generated_date": "2025-07-29T11:39:39.650376",
+      "id": "EvalOnceOnStartup",
+      "line_count": 122,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "FileIO"
+      ],
+      "title": "EvalOnceOnStartup",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "enb"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to convert a nested block into a       ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "enb"
+      },
+      "filename": "ExtractNestedBlockV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.652042",
+      "id": "ExtractNestedBlockV1-2",
+      "line_count": 219,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "ExtractNestedBlock V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "fieldmath"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Program Overview                                                    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "fieldmath"
+      },
+      "filename": "FieldArithmeticV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.654486",
+      "id": "FieldArithmeticV1-2",
+      "line_count": 636,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "interactive",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "FieldArithmetic V1.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns the field expression associated with an entity",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": ""
+      },
+      "filename": "FieldCodeV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.656551",
+      "id": "FieldCodeV1-1",
+      "line_count": 66,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "FieldCode V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "fieldformat"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program will prompt the user to select an annotation object    ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "fieldformat"
+      },
+      "filename": "FieldFormatV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.658793",
+      "id": "FieldFormatV1-1",
+      "line_count": 150,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "FieldFormat V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "fieldobjects"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to easily view the object or set of   ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "fieldobjects"
+      },
+      "filename": "FieldObjectsV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.660915",
+      "id": "FieldObjectsV1-1",
+      "line_count": 216,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "FieldObjects V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Displays a list box interface from which the user may select one or more items.",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "FilteredListBoxV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.662737",
+      "id": "FilteredListBoxV1-1",
+      "line_count": 74,
+      "primary_category": "SELECTION_ENTITY",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "FileIO"
+      ],
+      "title": "FilteredListBox V1.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "selection_entity"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "FormatDCL"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Reads a selected DCL file and creates a formatted version ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "FormatDCL"
+      },
+      "filename": "FormatDCLV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.664449",
+      "id": "FormatDCLV1-0",
+      "line_count": 136,
+      "primary_category": "USER_INTERFACE",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "FileIO"
+      ],
+      "title": "FormatDCL V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "user_interface"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "An analog of the 'getfiled' function for multiple file selection.   ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": ""
+      },
+      "filename": "GetFilesV1-6.lsp",
+      "generated_date": "2025-07-29T11:39:39.666395",
+      "id": "GetFilesV1-6",
+      "line_count": 469,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "GetFiles V1.6",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "6",
+        "version_string": "V1-6"
+      }
+    },
+    {
+      "commands": [
+        "GetSyntax"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns a list of syntax for all defined commands in a    ;;",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "GetSyntax"
+      },
+      "filename": "GetSyntax.lsp",
+      "generated_date": "2025-07-29T11:39:39.668156",
+      "id": "GetSyntax",
+      "line_count": 92,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "FileIO"
+      ],
+      "title": "GetSyntax",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "test"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns the unformatted string associated with the        ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "test"
+      },
+      "filename": "GetTrueContent.lsp",
+      "generated_date": "2025-07-29T11:39:39.669988",
+      "id": "GetTrueContent",
+      "line_count": 154,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "GetTrueContent",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Object Snap for grread: Snap Function  -  Lee Mac",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "GrSnapV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.671740",
+      "id": "GrSnapV1-0",
+      "line_count": 234,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "GrSnap V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns a grvecs pixel vector list relative to the origin ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "GrTextV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.673809",
+      "id": "GrTextV1-1",
+      "line_count": 275,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [],
+      "title": "GrText V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "ib"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows a user to import a block from a selected        ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "ib"
+      },
+      "filename": "ImportBlockV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.675562",
+      "id": "ImportBlockV1-2",
+      "line_count": 178,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "block",
+        "automation",
+        "objects",
+        "attribute",
+        "interactive"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "ImportBlock V1.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "incarrayd",
+        "incarray"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program will array a selection of objects, whilst incrementing ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "incarrayd"
+      },
+      "filename": "IncArrayV1-9.lsp",
+      "generated_date": "2025-07-29T11:39:39.678989",
+      "id": "IncArrayV1-9",
+      "line_count": 352,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "IncArray V1.9",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "9",
+        "version_string": "V1-9"
+      }
+    },
+    {
+      "commands": [
+        "IntLenM",
+        "IntLen"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Displays the length of segments of a curve divided at     ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "IntLenM"
+      },
+      "filename": "IntLenV1-4.lsp",
+      "generated_date": "2025-07-29T11:39:39.681110",
+      "id": "IntLenV1-4",
+      "line_count": 254,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "IntLen V1.4",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "4",
+        "version_string": "V1-4"
+      }
+    },
+    {
+      "commands": [
+        "isopoly"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Enables the user to construct a regular polygon projected ;;",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "isopoly"
+      },
+      "filename": "IsoPolyV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.682937",
+      "id": "IsoPolyV1-0",
+      "line_count": 74,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [],
+      "title": "IsoPoly V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "ifs"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "--------------=={ Iterated Function System }==--------------;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "ifs"
+      },
+      "filename": "IteratedFunctionSystemsV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.685072",
+      "id": "IteratedFunctionSystemsV1-2",
+      "line_count": 259,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "IteratedFunctionSystems V1.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "jbp"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to change the base point location      ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "jbp"
+      },
+      "filename": "JustifyBasePointV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.687273",
+      "id": "JustifyBasePointV1-1",
+      "line_count": 553,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "JustifyBasePoint V1.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "koch"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "koch"
+      },
+      "filename": "Koch.lsp",
+      "generated_date": "2025-07-29T11:39:39.689403",
+      "id": "Koch",
+      "line_count": 167,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [],
+      "title": "Koch",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "label"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Allows the user to create MText labels dynamically        ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "label"
+      },
+      "filename": "LabelV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.697720",
+      "id": "LabelV1-1",
+      "line_count": 259,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "Label V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "id": "LayerDirectorV2-1",
+      "filename": "LayerDirectorV2-1.lsp",
+      "title": "LayerDirector V2.1",
+      "description": "AutoLISP utility program",
+      "primary_category": "LAYER_DRAWING",
+      "commands": [
+        "ldoff",
+        "ldon"
+      ],
+      "tags": [
+        "reactive"
+      ],
+      "technologies": [
+        "VLR",
+        "ActiveX"
+      ],
+      "ui": "CommandLine",
+      "complexity": "advanced",
+      "line_count": 608,
+      "version_info": {
+        "major": "2",
+        "minor": "1",
+        "version_string": "V2-1"
+      },
+      "entry_points": {
+        "primary": "ldoff",
+        "complexity": "advanced"
+      },
+      "dependencies": {
+        "requires": [],
+        "integrates_with": [],
+        "conflicts_with": []
+      },
+      "usage_context": {
+        "typical_workflows": [
+          "layer_drawing"
+        ],
+        "automation_level": "semi_automatic"
+      },
+      "generated_date": "2025-07-29T11:29:34.650402",
+      "schema_version": "1.0"
+    },
+    {
+      "commands": [
+        "ldon",
+        "ldoff"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program uses a Visual LISP Command Reactor to automatically    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "ldon"
+      },
+      "filename": "LayerDirectorV2-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.699948",
+      "id": "LayerDirectorV2-1",
+      "line_count": 558,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [
+        "reactive"
+      ],
+      "technologies": [
+        "VLR",
+        "ActiveX"
+      ],
+      "title": "LayerDirector V2.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "major": "2",
+        "minor": "1",
+        "version_string": "V2-1"
+      }
+    },
+    {
+      "commands": [
+        "LX",
+        "LayerExtract"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "--=={ Local Functions }==--",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "LX"
+      },
+      "filename": "LayerExtractV1-4.lsp",
+      "generated_date": "2025-07-29T11:39:39.702387",
+      "id": "LayerExtractV1-4",
+      "line_count": 1072,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive",
+        "automation"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "LayerExtract V1.4",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "4",
+        "version_string": "V1-4"
+      }
+    },
+    {
+      "commands": [
+        "Layers2DWGs"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "Layers2DWGs"
+      },
+      "filename": "Layers2Drawings.lsp",
+      "generated_date": "2025-07-29T11:39:39.704481",
+      "id": "Layers2Drawings",
+      "line_count": 189,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "Layers2Drawings",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "lfnumber",
+        "lfsheet",
+        "lfname"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program defines a set of commands which enable the user to     ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "lfnumber"
+      },
+      "filename": "LayoutFieldV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.706804",
+      "id": "LayoutFieldV1-0",
+      "line_count": 182,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "LayoutField V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "ldorder"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Allows the user to control the draw order of all objects  ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "ldorder"
+      },
+      "filename": "LDOrderV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.691692",
+      "id": "LDOrderV1-2",
+      "line_count": 594,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "LDOrder V1.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "afm",
+        "lfm",
+        "lf",
+        "af"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program offers two commands to allow a user to generate a      ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "afm"
+      },
+      "filename": "LengthAreaFieldV1-4.lsp",
+      "generated_date": "2025-07-29T11:39:39.709412",
+      "id": "LengthAreaFieldV1-4",
+      "line_count": 571,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "interactive",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "LengthAreaField V1.4",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "4",
+        "version_string": "V1-4"
+      }
+    },
+    {
+      "commands": [
+        "l2a"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows a user to populate a selected attribute with    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "l2a"
+      },
+      "filename": "LengthFieldToAttributeV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.711405",
+      "id": "LengthFieldToAttributeV1-0",
+      "line_count": 273,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "interactive",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "LengthFieldToAttribute V1.0",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "LispLogOFF",
+        "LispLogON"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "LispLogOFF"
+      },
+      "filename": "LISPLogV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.693746",
+      "id": "LISPLogV1-0",
+      "line_count": 204,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "reactive"
+      ],
+      "technologies": [
+        "VLR",
+        "FileIO"
+      ],
+      "title": "LISPLog V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "lsp2bbc",
+        "lsp2html"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "lsp2bbc"
+      },
+      "filename": "LISPStyler.lsp",
+      "generated_date": "2025-07-29T11:39:39.695976",
+      "id": "LISPStyler",
+      "line_count": 509,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "FileIO"
+      ],
+      "title": "LISPStyler",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns: [lst] List of ((idx) (lst)) following operation",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": ""
+      },
+      "filename": "ListBoxFunctionsV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.713387",
+      "id": "ListBoxFunctionsV1-1",
+      "line_count": 67,
+      "primary_category": "USER_INTERFACE",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [],
+      "title": "ListBoxFunctions V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "user_interface"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Displays a DCL list box allowing the user to make a selection from the supplied data.",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "ListBoxV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.715104",
+      "id": "ListBoxV1-2",
+      "line_count": 49,
+      "primary_category": "USER_INTERFACE",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "FileIO"
+      ],
+      "title": "ListBox V1.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "user_interface"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": ""
+      },
+      "filename": "ListTileDependencyV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.718110",
+      "id": "ListTileDependencyV1-1",
+      "line_count": 61,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [],
+      "title": "ListTileDependency V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns: [bol] T if all linetypes are loaded successfully, else nil",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "LoadLinetypesV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.719725",
+      "id": "LoadLinetypesV1-3",
+      "line_count": 110,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "LoadLinetypes V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [
+        "logistic"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Function maximum occurs at r/4, hence for 0 <= r <= 4,    ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "logistic"
+      },
+      "filename": "Logistic.lsp",
+      "generated_date": "2025-07-29T11:39:39.721382",
+      "id": "Logistic",
+      "line_count": 102,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL"
+      ],
+      "title": "Logistic",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "lotto"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Generates a sequence of random numbers in the form of     ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "lotto"
+      },
+      "filename": "Lotto.lsp",
+      "generated_date": "2025-07-29T11:39:39.724084",
+      "id": "Lotto",
+      "line_count": 106,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "Lotto",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "MacAttExt",
+        "MacAtt",
+        "MacAttEdit"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "The function will retrieve specific attributes from blocks that appear in a  ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "MacAttExt"
+      },
+      "filename": "MacAttV3-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.736142",
+      "id": "MacAttV3-1",
+      "line_count": 2391,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive",
+        "automation"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "MacAtt V3.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "3",
+        "minor": "1",
+        "version_string": "V3-1"
+      }
+    },
+    {
+      "commands": [
+        "bmask"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to manipulate all available properties ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "bmask"
+      },
+      "filename": "MaskV1-5.lsp",
+      "generated_date": "2025-07-29T11:39:39.738251",
+      "id": "MaskV1-5",
+      "line_count": 499,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "Mask V1.5",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "5",
+        "version_string": "V1-5"
+      }
+    },
+    {
+      "commands": [
+        "mastermind"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "at the top of the program. Duplicate colours are allowed.                    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "mastermind"
+      },
+      "filename": "Mastermind.lsp",
+      "generated_date": "2025-07-29T11:39:39.741381",
+      "id": "Mastermind",
+      "line_count": 879,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "Mastermind",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "MatchAttribs"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "MatchAttribs"
+      },
+      "filename": "MatchAttribs.lsp",
+      "generated_date": "2025-07-29T11:39:39.743347",
+      "id": "MatchAttribs",
+      "line_count": 102,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "MatchAttribs",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "mff"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to copy the formatting from a         ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "mff"
+      },
+      "filename": "MatchFieldFormattingV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.745218",
+      "id": "MatchFieldFormattingV1-2",
+      "line_count": 296,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "MatchFieldFormatting V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "MatchTextProps",
+        "MTP"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "MatchTextProps"
+      },
+      "filename": "MatchTextProps.lsp",
+      "generated_date": "2025-07-29T11:39:39.747238",
+      "id": "MatchTextProps",
+      "line_count": 189,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "MatchTextProps",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "MD5 Cryptographic Hash Function  -  V1.1 2016-03-27  -  Lee Mac",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "MD5-V1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.726046",
+      "id": "MD5-V1-1",
+      "line_count": 174,
+      "primary_category": "MATHEMATICAL",
+      "schema_version": "1.0",
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [],
+      "title": "MD5. V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "mathematical"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "midlen"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program prompts the user for a selection of objects to be      ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "midlen"
+      },
+      "filename": "MidLenV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.749073",
+      "id": "MidLenV1-1",
+      "line_count": 185,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "MidLen V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Implements the algorithm by Pr.Chrystal (1885) using the Convex Hull",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "MinEncCircle.lsp",
+      "generated_date": "2025-07-29T11:39:39.750797",
+      "id": "MinEncCircle",
+      "line_count": 139,
+      "primary_category": "MATHEMATICAL",
+      "schema_version": "1.0",
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [],
+      "title": "MinEncCircle",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "mathematical"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "mec",
+        "mecm"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "mec"
+      },
+      "filename": "MinimumEnclosingCircleV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.752569",
+      "id": "MinimumEnclosingCircleV1-1",
+      "line_count": 305,
+      "primary_category": "MATHEMATICAL",
+      "schema_version": "1.0",
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "MinimumEnclosingCircle V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "mathematical"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "ml2pl"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "ml2pl"
+      },
+      "filename": "MLines2PLinesV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.729495",
+      "id": "MLines2PLinesV1-1",
+      "line_count": 55,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "MLines2PLines V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "mljust"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to change the justification of a      ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "mljust"
+      },
+      "filename": "MLJustV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.727717",
+      "id": "MLJustV1-0",
+      "line_count": 112,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "MLJust V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "mpl"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to create objects with the appearance ;;",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "mpl"
+      },
+      "filename": "MPlineV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.731220",
+      "id": "MPlineV1-1",
+      "line_count": 74,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "MPline V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "ms2ps"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to copy a selection of objects from    ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "ms2ps"
+      },
+      "filename": "ms2psV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.850061",
+      "id": "ms2psV1-0",
+      "line_count": 155,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "ms2ps V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "mteditreactoron",
+        "mteditreactoroff"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "mteditreactoron"
+      },
+      "filename": "MTEditReactorV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.733035",
+      "id": "MTEditReactorV1-1",
+      "line_count": 52,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "reactive"
+      ],
+      "technologies": [
+        "VLR",
+        "ActiveX"
+      ],
+      "title": "MTEditReactor V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "nmove"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to move multiple selected objects     ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "nmove"
+      },
+      "filename": "NestedMoveV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.754574",
+      "id": "NestedMoveV1-2",
+      "line_count": 427,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "automation"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "NestedMove V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "id": "NumIncV4-0",
+      "filename": "NumIncV4-0.lsp",
+      "title": "NumInc V4.0",
+      "description": "Incremental Numbering Suite enables the user to dynamically place incrementing alphabetical",
+      "primary_category": "TEXT_ANNOTATION",
+      "commands": [
+        "numinc"
+      ],
+      "tags": [
+        "numbering",
+        "interactive",
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "ui": "DCL",
+      "complexity": "expert",
+      "line_count": 6020,
+      "version_info": {
+        "major": "4",
+        "minor": "0",
+        "version_string": "V4-0"
+      },
+      "entry_points": {
+        "primary": "numinc",
+        "complexity": "expert"
+      },
+      "dependencies": {
+        "requires": [],
+        "integrates_with": [],
+        "conflicts_with": []
+      },
+      "usage_context": {
+        "typical_workflows": [
+          "text_annotation"
+        ],
+        "automation_level": "semi_automatic"
+      },
+      "generated_date": "2025-07-29T11:29:34.640603",
+      "schema_version": "1.0"
+    },
+    {
+      "commands": [
+        "numinc"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Program Overview                                                                             ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "numinc"
+      },
+      "filename": "NumIncV4-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.762284",
+      "id": "NumIncV4-0",
+      "line_count": 5768,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "interactive",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "NumInc V4.0",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "4",
+        "minor": "0",
+        "version_string": "V4-0"
+      }
+    },
+    {
+      "commands": [
+        "oa"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program will enable the user to dynamically align a selection  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "oa"
+      },
+      "filename": "ObjectAlignV1-7.lsp",
+      "generated_date": "2025-07-29T11:39:39.764581",
+      "id": "ObjectAlignV1-7",
+      "line_count": 443,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "ObjectAlign V1.7",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "7",
+        "version_string": "V1-7"
+      }
+    },
+    {
+      "commands": [
+        "brk",
+        "brko"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to break a selected object at two     ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "brk"
+      },
+      "filename": "ObjectBreakV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.766799",
+      "id": "ObjectBreakV1-0",
+      "line_count": 486,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "ObjectBreak V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Evaluates a supplied function on all drawings in a given list or    ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": ""
+      },
+      "filename": "ObjectDBXWrapperV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.768746",
+      "id": "ObjectDBXWrapperV1-2",
+      "line_count": 159,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "automation"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "ObjectDBXWrapper V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "LockObjects",
+        "UnLockObjects",
+        "DisableLock"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "clearly isn't practical. The functionality can be         ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "LockObjects"
+      },
+      "filename": "ObjectLock.lsp",
+      "generated_date": "2025-07-29T11:39:39.770597",
+      "id": "ObjectLock",
+      "line_count": 299,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "reactive"
+      ],
+      "technologies": [
+        "VLR",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "ObjectLock",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "offsec"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program prompts the user to specify an offset distance and to  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "offsec"
+      },
+      "filename": "OffsetSectionV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.772408",
+      "id": "OffsetSectionV1-1",
+      "line_count": 177,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "OffsetSection V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "outline"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to generate one or more closed        ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "outline"
+      },
+      "filename": "OutlineObjectsV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.774566",
+      "id": "OutlineObjectsV1-1",
+      "line_count": 155,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "OutlineObjects V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "password"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This novelty program will generate a pseudo-random password string  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "password"
+      },
+      "filename": "Password.lsp",
+      "generated_date": "2025-07-29T11:39:39.776647",
+      "id": "Password",
+      "line_count": 277,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "Password",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [
+        "polyinfo"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program provides the user with detailed information about      ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "polyinfo"
+      },
+      "filename": "PolyInfoV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.778867",
+      "id": "PolyInfoV1-3",
+      "line_count": 448,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "PolyInfo V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [
+        "ptaper"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to apply a tapered width across all    ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "ptaper"
+      },
+      "filename": "PolylineTaperV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.782600",
+      "id": "PolylineTaperV1-1",
+      "line_count": 121,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "SelectionSets"
+      ],
+      "title": "PolylineTaper V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "PolyOutline",
+        "mPolyOutline"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Example Calling Functions (these may be customised to suit your requirements):",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "PolyOutline"
+      },
+      "filename": "PolyOutlineV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.780747",
+      "id": "PolyOutlineV1-1",
+      "line_count": 188,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "SelectionSets"
+      ],
+      "title": "PolyOutline V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "pslay",
+        "rpslay"
+      ],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to apply or remove a prefix and/or     ;;",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": "pslay"
+      },
+      "filename": "PrefixSuffixLayerV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.784630",
+      "id": "PrefixSuffixLayerV1-1",
+      "line_count": 93,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "SelectionSets"
+      ],
+      "title": "PrefixSuffixLayer V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": ""
+      },
+      "filename": "PrintListV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.786586",
+      "id": "PrintListV1-0",
+      "line_count": 39,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [],
+      "title": "PrintList V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "PtManager",
+        "PTM_clear",
+        "PtM"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Program will allow the user to manipulate points in the drawing or a file in ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "PtManager"
+      },
+      "filename": "PtManagerV2-4.lsp",
+      "generated_date": "2025-07-29T11:39:39.789025",
+      "id": "PtManagerV2-4",
+      "line_count": 1055,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "PtManager V2.4",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "2",
+        "minor": "4",
+        "version_string": "V2-4"
+      }
+    },
+    {
+      "commands": [
+        "test2",
+        "test3",
+        "test1"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Quick Field Program  -  Lee Mac                                     ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "test2"
+      },
+      "filename": "QuickFieldV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.791885",
+      "id": "QuickFieldV1-3",
+      "line_count": 278,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "QuickField V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [
+        "QM",
+        "QMO",
+        "QMOD",
+        "QMD"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Provides functionality to mirror a selection of objects   ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "QM"
+      },
+      "filename": "QuickMirror.lsp",
+      "generated_date": "2025-07-29T11:39:39.794060",
+      "id": "QuickMirror",
+      "line_count": 105,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "QuickMirror",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "version_string": "1.0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": ""
+      },
+      "filename": "ReadCSV-V1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.796917",
+      "id": "ReadCSV-V1-3",
+      "line_count": 51,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "FileIO"
+      ],
+      "title": "ReadCS V. V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [
+        "rl"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to automatically sequentially         ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "rl"
+      },
+      "filename": "RenumberLayoutsV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.798892",
+      "id": "RenumberLayoutsV1-2",
+      "line_count": 252,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "RenumberLayouts V1.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "rxl"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to reset all or specific layer        ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "rxl"
+      },
+      "filename": "ResetXRefLayersV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.800843",
+      "id": "ResetXRefLayersV1-2",
+      "line_count": 421,
+      "primary_category": "LAYER_DRAWING",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive",
+        "automation"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "ResetXRefLayers V1.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "layer_drawing"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "wScript"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "The program will allow the user to enter a line of script operations to be   ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "wScript"
+      },
+      "filename": "ScriptWriterV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.803093",
+      "id": "ScriptWriterV1-2",
+      "line_count": 663,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "ScriptWriter V1.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "segs"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user convert every object in a selection   ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "segs"
+      },
+      "filename": "SegmentCurveV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.804956",
+      "id": "SegmentCurveV1-1",
+      "line_count": 151,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "SegmentCurve V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "selcountoff",
+        "selcounton"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "- Program modified to fix bug when using the UNDO command.          ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "selcountoff"
+      },
+      "filename": "SelectionCounterV1-4.lsp",
+      "generated_date": "2025-07-29T11:39:39.807220",
+      "id": "SelectionCounterV1-4",
+      "line_count": 103,
+      "primary_category": "SELECTION_ENTITY",
+      "schema_version": "1.0",
+      "tags": [
+        "reactive"
+      ],
+      "technologies": [
+        "VLR",
+        "SelectionSets"
+      ],
+      "title": "SelectionCounter V1.4",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "selection_entity"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "4",
+        "version_string": "V1-4"
+      }
+    },
+    {
+      "commands": [
+        "sht"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program enables the user to clear the area of a hatch pattern  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "sht"
+      },
+      "filename": "ShowHatchTextV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.809275",
+      "id": "ShowHatchTextV1-0",
+      "line_count": 287,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "ShowHatchText V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "sierpinski3D",
+        "sierpinski"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to construct a 2D Sierpinski Triangle  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "sierpinski3D"
+      },
+      "filename": "SierpinskiV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.811267",
+      "id": "SierpinskiV1-0",
+      "line_count": 269,
+      "primary_category": "MATHEMATICAL",
+      "schema_version": "1.0",
+      "tags": [
+        "algorithm",
+        "mathematics",
+        "computation"
+      ],
+      "technologies": [],
+      "title": "Sierpinski V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "mathematical"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "star"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to create a customised star shape,     ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "star"
+      },
+      "filename": "StarV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.813261",
+      "id": "StarV1-2",
+      "line_count": 476,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX"
+      ],
+      "title": "Star V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "Steal",
+        "StealTemplate",
+        "StealAll",
+        "StealTemplates",
+        "StealLast"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Program Overview                                       ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "Steal"
+      },
+      "filename": "StealV1-8.lsp",
+      "generated_date": "2025-07-29T11:39:39.816099",
+      "id": "StealV1-8",
+      "line_count": 1346,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive",
+        "automation"
+      ],
+      "technologies": [
+        "ObjectDBX",
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "Steal V1.8",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "fully_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "8",
+        "version_string": "V1-8"
+      }
+    },
+    {
+      "commands": [
+        "munder",
+        "strike2",
+        "mstrike",
+        "strike",
+        "under",
+        "munder2",
+        "overunder2",
+        "mstrike3",
+        "moverunder2",
+        "mstrike2",
+        "strike3",
+        "under2"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "munder"
+      },
+      "filename": "StrikethroughV1-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.818121",
+      "id": "StrikethroughV1-2",
+      "line_count": 285,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "SelectionSets"
+      ],
+      "title": "Strikethrough V1.2",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "2",
+        "version_string": "V1-2"
+      }
+    },
+    {
+      "commands": [
+        "attsum"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to sum numerical attribute values      ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "attsum"
+      },
+      "filename": "SumAttributeValuesV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.820184",
+      "id": "SumAttributeValuesV1-1",
+      "line_count": 368,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects",
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "SumAttribute Values V1.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "TabSort"
+      ],
+      "complexity": "expert",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "A program designed with the intention to aid in the       ;;",
+      "entry_points": {
+        "complexity": "expert",
+        "primary": "TabSort"
+      },
+      "filename": "TabSortV2-2.lsp",
+      "generated_date": "2025-07-29T11:39:39.826421",
+      "id": "TabSortV2-2",
+      "line_count": 1582,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "TabSort V2.2",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "2",
+        "minor": "2",
+        "version_string": "V2-2"
+      }
+    },
+    {
+      "commands": [
+        "tCount"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Professional AutoLISP utility program",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "tCount"
+      },
+      "filename": "TCountV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.823257",
+      "id": "TCountV1-1",
+      "line_count": 258,
+      "primary_category": "SELECTION_ENTITY",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "TCount V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "selection_entity"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "t2m"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Similar to the Txt2MTxt Express Tools function, but allows the user          ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "t2m"
+      },
+      "filename": "Text2MTextV2-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.828414",
+      "id": "Text2MTextV2-0",
+      "line_count": 292,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": "Text2MText V2.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "2",
+        "minor": "0",
+        "version_string": "V2-0"
+      }
+    },
+    {
+      "commands": [
+        "t2w"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "- Program updated to omit extension dictionaries from source text   ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "t2w"
+      },
+      "filename": "Text2WordsV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.830413",
+      "id": "Text2WordsV1-1",
+      "line_count": 104,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "SelectionSets"
+      ],
+      "title": "Text2Words V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "TextCalc",
+        "TC"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Allows the user to perform arithmetical operations on     ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "TextCalc"
+      },
+      "filename": "TextCalcV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.832317",
+      "id": "TextCalcV1-0",
+      "line_count": 408,
+      "primary_category": "TEXT_ANNOTATION",
+      "schema_version": "1.0",
+      "tags": [
+        "annotation",
+        "interactive",
+        "labeling",
+        "text"
+      ],
+      "technologies": [
+        "DCL",
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "TextCalc V1.0",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "text_annotation"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This novelty program allows you to display a randomly chosen        ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": ""
+      },
+      "filename": "TipV1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.834343",
+      "id": "TipV1-1",
+      "line_count": 207,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [
+        "interactive"
+      ],
+      "technologies": [
+        "DCL",
+        "FileIO"
+      ],
+      "title": "Tip V1.1",
+      "ui": "DCL",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "tlpline"
+      ],
+      "complexity": "advanced",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to dynamically construct a             ;;",
+      "entry_points": {
+        "complexity": "advanced",
+        "primary": "tlpline"
+      },
+      "filename": "TotalLengthPolylineV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.836650",
+      "id": "TotalLengthPolylineV1-0",
+      "line_count": 813,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX",
+        "FileIO"
+      ],
+      "title": "TotalLengthPolyline V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    },
+    {
+      "commands": [
+        "utb"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Drawing List, the program will proceed to update block attributes.  ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "utb"
+      },
+      "filename": "UpdateTitleblockV1-9.lsp",
+      "generated_date": "2025-07-29T11:39:39.839731",
+      "id": "UpdateTitleblockV1-9",
+      "line_count": 375,
+      "primary_category": "BLOCK_ATTRIBUTE",
+      "schema_version": "1.0",
+      "tags": [
+        "attribute",
+        "block",
+        "objects"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets",
+        "FileIO"
+      ],
+      "title": "UpdateTitleblock V1.9",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "block_attribute"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "9",
+        "version_string": "V1-9"
+      }
+    },
+    {
+      "commands": [
+        "vpo",
+        "vpoa",
+        "vpol"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program allows the user to automatically generate a polyline   ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "vpo"
+      },
+      "filename": "VPOutlineV1-3.lsp",
+      "generated_date": "2025-07-29T11:39:39.842078",
+      "id": "VPOutlineV1-3",
+      "line_count": 368,
+      "primary_category": "GEOMETRIC_CURVE",
+      "schema_version": "1.0",
+      "tags": [
+        "construction",
+        "curve",
+        "geometry"
+      ],
+      "technologies": [
+        "ActiveX",
+        "SelectionSets"
+      ],
+      "title": " VPOutline V1.3",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "geometric_curve"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "3",
+        "version_string": "V1-3"
+      }
+    },
+    {
+      "commands": [],
+      "complexity": "beginner",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "Returns T if successful, else nil",
+      "entry_points": {
+        "complexity": "beginner",
+        "primary": ""
+      },
+      "filename": "WriteCSV-V1-1.lsp",
+      "generated_date": "2025-07-29T11:39:39.844052",
+      "id": "WriteCSV-V1-1",
+      "line_count": 39,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [
+        "FileIO"
+      ],
+      "title": "WriteCS V. V1.1",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "1",
+        "version_string": "V1-1"
+      }
+    },
+    {
+      "commands": [
+        "xx",
+        "xa",
+        "xh",
+        "xv"
+      ],
+      "complexity": "intermediate",
+      "dependencies": {
+        "conflicts_with": [],
+        "integrates_with": [],
+        "requires": []
+      },
+      "description": "This program will create XLINE objects on a predetermined layer     ;;",
+      "entry_points": {
+        "complexity": "intermediate",
+        "primary": "xx"
+      },
+      "filename": "XLineV1-0.lsp",
+      "generated_date": "2025-07-29T11:39:39.846560",
+      "id": "XLineV1-0",
+      "line_count": 120,
+      "primary_category": "SPECIALIZED",
+      "schema_version": "1.0",
+      "tags": [],
+      "technologies": [],
+      "title": "XLine V1.0",
+      "ui": "CommandLine",
+      "usage_context": {
+        "automation_level": "semi_automatic",
+        "typical_workflows": [
+          "specialized"
+        ]
+      },
+      "version_info": {
+        "major": "1",
+        "minor": "0",
+        "version_string": "V1-0"
+      }
+    }
+  ]
+}

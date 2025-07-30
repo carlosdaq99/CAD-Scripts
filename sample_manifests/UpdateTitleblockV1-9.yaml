@@ -1,0 +1,35 @@
+commands:
+- utb
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Drawing List, the program will proceed to update block attributes.  ;;
+entry_points:
+  complexity: intermediate
+  primary: utb
+filename: UpdateTitleblockV1-9.lsp
+generated_date: '2025-07-29T11:39:39.839731'
+id: UpdateTitleblockV1-9
+line_count: 375
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- attribute
+- block
+- objects
+technologies:
+- ActiveX
+- SelectionSets
+- FileIO
+title: UpdateTitleblock V1.9
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  major: '1'
+  minor: '9'
+  version_string: V1-9

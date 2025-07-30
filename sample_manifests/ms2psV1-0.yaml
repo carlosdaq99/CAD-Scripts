@@ -1,0 +1,31 @@
+commands:
+- ms2ps
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows the user to copy a selection of objects from    ;;
+entry_points:
+  complexity: intermediate
+  primary: ms2ps
+filename: ms2psV1-0.lsp
+generated_date: '2025-07-29T11:39:39.850061'
+id: ms2psV1-0
+line_count: 155
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+title: ms2ps V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

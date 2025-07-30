@@ -1,0 +1,31 @@
+commands:
+- mastermind
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: at the top of the program. Duplicate colours are allowed.                    ;;
+entry_points:
+  complexity: advanced
+  primary: mastermind
+filename: Mastermind.lsp
+generated_date: '2025-07-29T11:39:39.741381'
+id: Mastermind
+line_count: 879
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- ActiveX
+- FileIO
+title: Mastermind
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

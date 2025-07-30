@@ -1,0 +1,34 @@
+commands:
+- sht
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to clear the area of a hatch pattern  ;;
+entry_points:
+  complexity: intermediate
+  primary: sht
+filename: ShowHatchTextV1-0.lsp
+generated_date: '2025-07-29T11:39:39.809275'
+id: ShowHatchTextV1-0
+line_count: 287
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+- SelectionSets
+title: ShowHatchText V1.0
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '0'
+  version_string: V1-0

@@ -1,0 +1,28 @@
+commands: []
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: beginner
+  primary: ''
+filename: ListTileDependencyV1-1.lsp
+generated_date: '2025-07-29T11:39:39.718110'
+id: ListTileDependencyV1-1
+line_count: 61
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies: []
+title: ListTileDependency V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

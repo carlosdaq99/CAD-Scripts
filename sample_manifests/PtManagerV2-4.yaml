@@ -1,0 +1,37 @@
+commands:
+- PtManager
+- PTM_clear
+- PtM
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Program will allow the user to manipulate points in the drawing or a
+  file in ;;
+entry_points:
+  complexity: advanced
+  primary: PtManager
+filename: PtManagerV2-4.lsp
+generated_date: '2025-07-29T11:39:39.789025'
+id: PtManagerV2-4
+line_count: 1055
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: PtManager V2.4
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '2'
+  minor: '4'
+  version_string: V2-4

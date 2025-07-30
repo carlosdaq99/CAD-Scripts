@@ -1,0 +1,28 @@
+commands:
+- test
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Returns the unformatted string associated with the        ;;
+entry_points:
+  complexity: intermediate
+  primary: test
+filename: GetTrueContent.lsp
+generated_date: '2025-07-29T11:39:39.669988'
+id: GetTrueContent
+line_count: 154
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: GetTrueContent
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  version_string: '1.0'

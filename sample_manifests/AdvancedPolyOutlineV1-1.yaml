@@ -1,0 +1,35 @@
+commands:
+- polyout
+- mpolyout
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: 'Example calling functions (these may be customised to suit your requirements):'
+entry_points:
+  complexity: advanced
+  primary: polyout
+filename: AdvancedPolyOutlineV1-1.lsp
+generated_date: '2025-07-29T11:39:39.505124'
+id: AdvancedPolyOutlineV1-1
+line_count: 663
+primary_category: GEOMETRIC_CURVE
+schema_version: '1.0'
+tags:
+- construction
+- curve
+- geometry
+technologies:
+- ActiveX
+- SelectionSets
+title: AdvancedPolyOutline V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - geometric_curve
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

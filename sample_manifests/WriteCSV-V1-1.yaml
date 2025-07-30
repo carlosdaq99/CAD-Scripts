@@ -1,0 +1,29 @@
+commands: []
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Returns T if successful, else nil
+entry_points:
+  complexity: beginner
+  primary: ''
+filename: WriteCSV-V1-1.lsp
+generated_date: '2025-07-29T11:39:39.844052'
+id: WriteCSV-V1-1
+line_count: 39
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- FileIO
+title: WriteCS V. V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

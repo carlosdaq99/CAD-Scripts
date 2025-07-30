@@ -1,0 +1,28 @@
+commands: []
+complexity: beginner
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: 'Returns: [lst] List of ((idx) (lst)) following operation'
+entry_points:
+  complexity: beginner
+  primary: ''
+filename: ListBoxFunctionsV1-1.lsp
+generated_date: '2025-07-29T11:39:39.713387'
+id: ListBoxFunctionsV1-1
+line_count: 67
+primary_category: USER_INTERFACE
+schema_version: '1.0'
+tags: []
+technologies: []
+title: ListBoxFunctions V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - user_interface
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

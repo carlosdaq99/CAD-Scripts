@@ -1,0 +1,32 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Displays a DCL list box allowing the user to make a selection from the
+  supplied data.
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: ListBoxV1-2.lsp
+generated_date: '2025-07-29T11:39:39.715104'
+id: ListBoxV1-2
+line_count: 49
+primary_category: USER_INTERFACE
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- FileIO
+title: ListBox V1.2
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - user_interface
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

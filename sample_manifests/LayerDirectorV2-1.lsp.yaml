@@ -1,0 +1,33 @@
+id: LayerDirectorV2-1
+filename: LayerDirectorV2-1.lsp
+title: LayerDirector V2.1
+description: AutoLISP utility program
+primary_category: LAYER_DRAWING
+commands:
+- ldoff
+- ldon
+tags:
+- reactive
+technologies:
+- VLR
+- ActiveX
+ui: CommandLine
+complexity: advanced
+line_count: 608
+version_info:
+  major: '2'
+  minor: '1'
+  version_string: V2-1
+entry_points:
+  primary: ldoff
+  complexity: advanced
+dependencies:
+  requires: []
+  integrates_with: []
+  conflicts_with: []
+usage_context:
+  typical_workflows:
+  - layer_drawing
+  automation_level: semi_automatic
+generated_date: '2025-07-29T11:29:34.650402'
+schema_version: '1.0'

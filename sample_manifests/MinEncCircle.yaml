@@ -1,0 +1,29 @@
+commands: []
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Implements the algorithm by Pr.Chrystal (1885) using the Convex Hull
+entry_points:
+  complexity: intermediate
+  primary: ''
+filename: MinEncCircle.lsp
+generated_date: '2025-07-29T11:39:39.750797'
+id: MinEncCircle
+line_count: 139
+primary_category: MATHEMATICAL
+schema_version: '1.0'
+tags:
+- algorithm
+- mathematics
+- computation
+technologies: []
+title: MinEncCircle
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - mathematical
+version_info:
+  version_string: '1.0'

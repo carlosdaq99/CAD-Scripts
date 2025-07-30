@@ -1,0 +1,30 @@
+commands:
+- star
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program allows the user to create a customised star shape,     ;;
+entry_points:
+  complexity: intermediate
+  primary: star
+filename: StarV1-2.lsp
+generated_date: '2025-07-29T11:39:39.813261'
+id: StarV1-2
+line_count: 476
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+title: Star V1.2
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '2'
+  version_string: V1-2

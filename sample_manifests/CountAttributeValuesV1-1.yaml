@@ -1,0 +1,37 @@
+commands:
+- cav
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to count the number of occurrences    ;;
+entry_points:
+  complexity: advanced
+  primary: cav
+filename: CountAttributeValuesV1-1.lsp
+generated_date: '2025-07-29T11:39:39.601273'
+id: CountAttributeValuesV1-1
+line_count: 395
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- attribute
+- block
+- objects
+- interactive
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: CountAttribute Values V1.1
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

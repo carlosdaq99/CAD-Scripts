@@ -1,0 +1,35 @@
+commands:
+- blkcount
+- blkcountsettings
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to record the quantities of a         ;;
+entry_points:
+  complexity: advanced
+  primary: blkcount
+filename: CountV1-5.lsp
+generated_date: '2025-07-29T11:39:39.603653'
+id: CountV1-5
+line_count: 816
+primary_category: SELECTION_ENTITY
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: Count V1.5
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - selection_entity
+version_info:
+  major: '1'
+  minor: '5'
+  version_string: V1-5

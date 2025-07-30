@@ -1,0 +1,31 @@
+commands:
+- DInfo
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: '-----------------------=={  Dynamic Information Tool  }==----------------------;;'
+entry_points:
+  complexity: advanced
+  primary: DInfo
+filename: DInfoV1-5.lsp
+generated_date: '2025-07-29T11:39:39.613367'
+id: DInfoV1-5
+line_count: 629
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies:
+- ActiveX
+- SelectionSets
+title: DInfo V1.5
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '5'
+  version_string: V1-5

@@ -1,0 +1,34 @@
+commands:
+- copyfield
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to copy a field expression from a     ;;
+entry_points:
+  complexity: intermediate
+  primary: copyfield
+filename: CopyFieldV1-1.lsp
+generated_date: '2025-07-29T11:39:39.594547'
+id: CopyFieldV1-1
+line_count: 189
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- labeling
+- text
+technologies:
+- ActiveX
+- FileIO
+title: CopyField V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

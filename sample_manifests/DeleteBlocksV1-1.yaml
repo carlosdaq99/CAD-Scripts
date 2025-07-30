@@ -1,0 +1,38 @@
+commands:
+- delblocks
+complexity: expert
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: This program enables the user to quickly remove multiple blocks     ;;
+entry_points:
+  complexity: expert
+  primary: delblocks
+filename: DeleteBlocksV1-1.lsp
+generated_date: '2025-07-29T11:39:39.618118'
+id: DeleteBlocksV1-1
+line_count: 256
+primary_category: BLOCK_ATTRIBUTE
+schema_version: '1.0'
+tags:
+- block
+- automation
+- objects
+- attribute
+- interactive
+technologies:
+- ObjectDBX
+- DCL
+- ActiveX
+- FileIO
+title: DeleteBlocks V1.1
+ui: DCL
+usage_context:
+  automation_level: fully_automatic
+  typical_workflows:
+  - block_attribute
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

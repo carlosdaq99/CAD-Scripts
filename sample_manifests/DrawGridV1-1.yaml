@@ -1,0 +1,30 @@
+commands:
+- dgrid
+- dgridd
+complexity: intermediate
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Dynamically generates a grid with a specified number of   ;;
+entry_points:
+  complexity: intermediate
+  primary: dgrid
+filename: DrawGridV1-1.lsp
+generated_date: '2025-07-29T11:39:39.627817'
+id: DrawGridV1-1
+line_count: 221
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags: []
+technologies: []
+title: DrawGrid V1.1
+ui: CommandLine
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

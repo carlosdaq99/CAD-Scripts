@@ -1,0 +1,36 @@
+commands:
+- edAtt
+- mvAtt
+- roAtt
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Professional AutoLISP utility program
+entry_points:
+  complexity: advanced
+  primary: edAtt
+filename: AttModSuiteV1-1.lsp
+generated_date: '2025-07-29T11:39:39.529780'
+id: AttModSuiteV1-1
+line_count: 614
+primary_category: SPECIALIZED
+schema_version: '1.0'
+tags:
+- interactive
+technologies:
+- DCL
+- ActiveX
+- SelectionSets
+- FileIO
+title: AttModSuite V1.1
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - specialized
+version_info:
+  major: '1'
+  minor: '1'
+  version_string: V1-1

@@ -1,0 +1,36 @@
+commands:
+- atc
+complexity: advanced
+dependencies:
+  conflicts_with: []
+  integrates_with: []
+  requires: []
+description: Program Overview                                                    ;;
+entry_points:
+  complexity: advanced
+  primary: atc
+filename: AlignTextToCurveV1-5.lsp
+generated_date: '2025-07-29T11:39:39.507801'
+id: AlignTextToCurveV1-5
+line_count: 986
+primary_category: TEXT_ANNOTATION
+schema_version: '1.0'
+tags:
+- annotation
+- interactive
+- labeling
+- text
+technologies:
+- DCL
+- ActiveX
+- FileIO
+title: AlignTextToCurve V1.5
+ui: DCL
+usage_context:
+  automation_level: semi_automatic
+  typical_workflows:
+  - text_annotation
+version_info:
+  major: '1'
+  minor: '5'
+  version_string: V1-5
